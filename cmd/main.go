@@ -60,6 +60,7 @@ func main() {
 	updateEndpoint := flag.String("update_endpoint", "http://localhost:8080/entities", "Endpoint for the Update API (default: http://localhost:8080/entities)")
 	queryEndpoint := flag.String("query_endpoint", "http://localhost:8081/v1/entities", "Endpoint for the Query API (default: http://localhost:8081/v1/entities)")
 	processType := flag.String("type", "organisation", "Type of data to process: 'organisation' or 'person' or 'document' or 'secretary' (default: organisation)")
+	fixSecretaryDates := flag.Bool("fix-secretary-dates", false, "Fix StartTime and EndTime for all secretary appointments based on ministry creation dates")
 
 	// Custom usage message
 	flag.Usage = func() {
@@ -107,6 +108,17 @@ func main() {
 
 	// Create API client with configurable endpoints
 	client := api.NewClient(*updateEndpoint, *queryEndpoint)
+
+	// Handle fix-secretary-dates flag
+	if *fixSecretaryDates {
+		fmt.Println("Fixing secretary appointment dates...")
+		err := client.FixSecretaryMoveOnMinistryRename()
+		if err != nil {
+			log.Fatalf("Failed to fix secretary appointment dates: %v", err)
+		}
+		fmt.Println("Successfully fixed secretary appointment dates")
+		return
+	}
 
 	// Initialize database if requested
 	if *initDB {
