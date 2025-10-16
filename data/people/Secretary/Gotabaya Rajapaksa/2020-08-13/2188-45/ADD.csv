@@ -1,0 +1,28 @@
+transaction_id,parent,parent_type,child,child_type,rel_type,date
+2188-45_tr_01,Minister of Highways,minister,R. W. R. Pemasiri,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_02,"Minister of Public Services, Provincial Councils and Local Government",minister,J. J. Rathnasiri,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_03,Minister of Mass Media,minister,Jagath P. Wijeweera,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_04,Minister of Plantation,minister,Ravindra Hewavitharana,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_05,Minister of Irrigation,minister,D. M. Anura Dissanayake,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_06,Minister of Industries,minister,W. A. Chulananda Perera,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_07,Minister of Power,minister,Wasantha Perera,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_08,Minister of Justice,minister,M. M. P. K. Mayadunne,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_09,Minister of Tourism,minister,S. Hettiarachchi,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_10,Minister of Finance,minister,S. R. Attygalle,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_11,Minister of Lands,minister,R. A. A. K. Ranawaka,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_12,Minister of Labour,minister,M. P. D. U. K. Mapa Pathirana,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_13,Minister of Fisheries,minister,R. M. I. Rathnayake,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_14,Minister of Wildlife and Forest Conservation,minister,M. K. B. Harishchandra,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_15,Minister of Transport,minister,N. B. Monti Ranatunga,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_16,Minister of Water Supply,minister,Priyath Bandu Wickrema,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_17,Minister of Trade,minister,J. M. B. Jayawardana,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_18,Minister of Health,minister,Sanjeewa Munasinghe,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_19,Minister of Agriculture,minister,A. K. Sumedha Perera,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_20,Minister of Ports and Shipping,minister,U. D. C. Jayalal,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_21,Minister of Youth and Sports,minister,Anuradha Wijekoon,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_22,Minister of Energy,minister,K. D. R. Olga,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_23,Minister of Environment,minister,Anil Jasingha,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_24,Minister of Education,minister,Kapila Perera,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_25,"Minister of Buddha Sasana, Religious and Cultural Affairs",minister,Kapila Gunawardana,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_26,Foreign Minister,minister,Jayanath Colombage,citizen,SECRETARY_APPOINTED,2020-08-13
+2188-45_tr_27,Minister of Urban Development and Housing,minister,Sirinimal Perera,citizen,SECRETARY_APPOINTED,2020-08-13

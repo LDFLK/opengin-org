@@ -1,0 +1,21 @@
+transaction_id,parent,parent_type,child,child_type,rel_type,date
+2282-04_tr_01,Minister of Foreign Affairs,minister,Aruni Wijewardana,citizen,SECRETARY_APPOINTED,2022-05-30
+2282-04_tr_02,Minister of Transport and Highways,minister,R.W.R. Pemasiri,citizen,SECRETARY_APPOINTED,2022-05-30
+2282-04_tr_03,"Minister of Public Administration, Home Affairs, Provincial Councils and Local Government",minister,M.M.P.K. Mayadunne,citizen,SECRETARY_APPOINTED,2022-05-30
+2282-04_tr_04,"Minister of Ports, Shipping and Aviation",minister,K.D.S. Ruwanchandra,citizen,SECRETARY_APPOINTED,2022-05-30
+2282-04_tr_05,"Minister of Trade, Commerce and Food Security",minister,S.T. Kodikara,citizen,SECRETARY_APPOINTED,2022-05-30
+2282-04_tr_06,Minister of Tourism and Lands,minister,W.A. Chulananda Perera,citizen,SECRETARY_APPOINTED,2022-05-30
+2282-04_tr_07,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Wasantha Perera,citizen,SECRETARY_APPOINTED,2022-05-30
+2282-04_tr_08,Minister of Public Security,minister,S. Hettiarachchi,citizen,SECRETARY_APPOINTED,2022-05-30
+2282-04_tr_09,Minister of Education,minister,M.N. Ranasingha,citizen,SECRETARY_APPOINTED,2022-05-30
+2282-04_tr_10,Minister of Water Supply,minister,Monti Ranatunga,citizen,SECRETARY_APPOINTED,2022-05-30
+2282-04_tr_11,Minister of Irrigation,minister,U.D.C. Jayalal,citizen,SECRETARY_APPOINTED,2022-05-30
+2282-04_tr_12,Minister of Mass Media,minister,Anusha Palpita,citizen,SECRETARY_APPOINTED,2022-05-30
+2282-04_tr_13,Minister of Agriculture,minister,M.B.R. Pushpakumara,citizen,SECRETARY_APPOINTED,2022-05-30
+2282-04_tr_14,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,Somarathna Vidanapathirana,citizen,SECRETARY_APPOINTED,2022-05-30
+2282-04_tr_15,Minister of Industries,minister,Daya Rathnayake,citizen,SECRETARY_APPOINTED,2022-05-30
+2282-04_tr_16,Minister of Plantation Industries,minister,B.L.A.J. Dharmakeerthi,citizen,SECRETARY_APPOINTED,2022-05-30
+2282-04_tr_17,Minister of Wildlife and Forest Resources Conservation,minister,R.M.C.M. Herath,citizen,SECRETARY_APPOINTED,2022-05-30
+2282-04_tr_18,Minister of Health,minister,S.J.S. Chandraguptha,citizen,SECRETARY_APPOINTED,2022-05-30
+2282-04_tr_19,Minister of Urban Development and Housing,minister,P.H.C. Rathnayaka,citizen,SECRETARY_APPOINTED,2022-05-30
+2282-04_tr_20,Minister of Labour and Foreign Employment,minister,R.P.A. Wimalaweera,citizen,SECRETARY_APPOINTED,2022-05-30

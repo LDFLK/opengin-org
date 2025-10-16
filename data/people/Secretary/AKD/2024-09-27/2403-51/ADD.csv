@@ -1,0 +1,12 @@
+transaction_id,parent,parent_type,child,child_type,rel_type,date
+2403-51_tr_01,Minister of Transport and Highways,minister,Ranjith Ganganath Rubasinghe,citizen,SECRETARY_APPOINTED,2024-09-27
+2403-51_tr_02,"Minister of Finance, Economic Development, Policy Formulation, Planning and Tourism",minister,K.M.M. Siriwardana,citizen,SECRETARY_APPOINTED,2024-09-27
+2403-51_tr_03,"Minister of Higher Education, Technology and Innovation",minister,D. M. A. R. B. Dissanayake,citizen,SECRETARY_APPOINTED,2024-09-27
+2403-51_tr_04,"Minister of Women, Child Affairs and Social Empowerment",minister,H. K. D. W. M. N. B. Hapuhinna,citizen,SECRETARY_APPOINTED,2024-09-27
+2403-51_tr_05,"Minister of Trade, Commerce and Food Security",minister,S.T. Kodikara,citizen,SECRETARY_APPOINTED,2024-09-27
+2403-51_tr_06,Minister of Urban Development and Housing,minister,P.H.C. Rathnayaka,citizen,SECRETARY_APPOINTED,2024-09-27
+2403-51_tr_07,Minister of Health,minister,S.J.S. Chandraguptha,citizen,SECRETARY_APPOINTED,2024-09-27
+2403-51_tr_08,Minister of Wildlife and Forest Resources Conservation,minister,Gunadasa Samarasinghe,citizen,SECRETARY_APPOINTED,2024-09-27
+2403-51_tr_09,Minister of Fisheries,minister,M.P.N.M. Wickramasinghe,citizen,SECRETARY_APPOINTED,2024-09-27
+2403-51_tr_10,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,Somarathna Vidanapathirana,citizen,SECRETARY_APPOINTED,2024-09-27
+2403-51_tr_11,Minister of Energy,minister,M. P. D. U. K. Mapa Pathirana,citizen,SECRETARY_APPOINTED,2024-09-27

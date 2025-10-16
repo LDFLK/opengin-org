@@ -1,0 +1,3 @@
+transaction_id,parent,parent_type,child,child_type,rel_type,date
+2403-12_tr_01,Minister of Defence,minister,H. S. S. Thuyacontha,citizen,SECRETARY_APPOINTED,2024-09-24
+2403-12_tr_02,Minister of Public Security,minister,D. W. R. B. Seneviratne,citizen,SECRETARY_APPOINTED,2024-09-24

@@ -1,0 +1,37 @@
+transaction_id,parent,parent_type,child,child_type,rel_type,date
+2278-28_tr_01,Minister of Power,minister,Mr. K. D. S. Ruwanchandra,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_02,Minister of Labour,minister,Ms. Wasantha Perera,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_03,Minister of Energy,minister,Mr. M. P. D. U. K. Mapa Pathirana,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_04,Minister of Trade,minister,Mr. H. K. D. W. M. N. B. Hapuhinna,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_05,Minister of Samurdhi Development,minister,Mr. D. P. G. Kumarasiri,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_06,State Minister of Urban Development,minister,Mr. Sirinimal Perera,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_07,State Minister of Water Supply,minister,Mr. W. H. Karunarathna,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_08,State Minister of Foreign Affairs,minister,Mr. S. T. Kodikara,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_09,State Minister of Promoting the Production of Organic fertilizer and Advanced Technology Agriculture,minister,Mr. M. N. Ranasinghe,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_10,State Minister of Plantation,minister,Mr. Tissa Hewavithana,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_11,State Minister of Industries,minister,Mr. M. A. B. V. Bandaranayake,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_12,State Minister of Estate Housing & Community Infrastructure,minister,Mr. D. D. Matharaarachchi,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_13,State Minister of Highways,minister,Mr. S. H. Harischandra,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_14,State Minister of Indigenous Medicine,minister,A. K. W. W. M. N. K. Weerasekara,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_15,State Minister of Rural Roads Development,minister,Ranjith Dissanayake,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_16,State Minister of Higher Education,minister,Ms. J. M. B. Jayawardana,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_17,State Minister of Foreign Employment Promotion and Market Diversification,minister,Ms. K. D. R. Olga,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_18,State Minister of Education Reforms,minister,Dr. M. Upali Sedara,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_19,State Minister of Trade,minister,Mr. J. M. T. Banda,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_20,State Minister of Health,minister,Ms. R. Sunethra Gunawardana,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_21,State Minister of Housing,minister,Keerthi Ranjith Abeysiriwardana,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_22,State Minister of Transport,minister,Mr. S. M. D. L. D. Alwis,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_23,State Minister of Fisheries,minister,Mr. Jayantha Chandrasoma,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_24,State Minister of Youth and Sports,minister,Mr. K. H. Ravindra Samarawickrema,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_25,State Minister of Rural Economic Crop Cultivation & Promotion,minister,Dr. Amal Harsha de Silva,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_26,State Minister of Prison Management and Prisoners' Rehabilitation,minister,Major General (Rtd. ) V. R. Silva,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_27,State Minister of Textile Industry & Local Apparel Products Promotion,minister,B. L. A. J. Dharmakeerthi,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_28,State Minister of Cultural & Performing Arts,minister,Ms. K. A. D. R. Nishanthi Jayasinghe,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_29,State Minister of Mahaweli,minister,Ms. R. M. C. M. Herath,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_30,State Minister of Education,minister,Ms. Deepa Liyanage,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_31,State Minister of Provincial Councils & Local Government,minister,Mr. W. M. M. B. Weerasekara,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_32,State Minister of Livestock,minister,Mr. R. M. W. S. Samaradivakara,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_33,State Minister of Tourism,minister,Mr. S. J. S. Chandraguptha,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_34,State Minister of Irrigation,minister,Mr. K. G. Wijesiri,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_35,State Minister of Development of Minor Export Crops,minister,Mr. S. D. Pandikorala,citizen,SECRETARY_APPOINTED,2022-05-07
+2278-28_tr_36,"State Minister of Cooperative Services, Marketing Development and Consumer Protection",minister,Ms. T. V. D. D. S. Karunarathna,citizen,SECRETARY_APPOINTED,2022-05-07
