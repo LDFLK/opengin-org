@@ -144,7 +144,7 @@ func (c *Client) getAllSecretaryAppointments() ([]SecretaryAppointmentRecord, er
 			m.Id as ministry_id,
 			m.Name as ministry_name,
 			m.Created as created,
-			r.ID as rel_id
+			r.Id as rel_id
 		ORDER BY s.Name, m.Created
 	`
 
@@ -175,23 +175,29 @@ func (c *Client) getAllSecretaryAppointments() ([]SecretaryAppointmentRecord, er
 		}
 
 		// Parse CSV-like output from cypher-shell
-		// Format: "secretary_id", "secretary_name", "ministry_id", "ministry_name", created_date, "rel_id"
+		// Format: secretary_id, "secretary_name", "ministry_id", "ministry_name", created_date, "rel_id"
 		parts := parseCSVLine(line)
 		if len(parts) < 6 {
 			continue
 		}
 
-		secretaryID := strings.Trim(parts[0], "\"")
-		secretaryName := strings.Trim(parts[1], "\"")
-		ministryID := strings.Trim(parts[2], "\"")
-		ministryName := strings.Trim(parts[3], "\"")
-		createdStr := strings.Trim(parts[4], "\"")
-		relID := strings.Trim(parts[5], "\"")
+		secretaryID := strings.Trim(parts[0], "\" ")
+		secretaryName := strings.Trim(parts[1], "\" ")
+		ministryID := strings.Trim(parts[2], "\" ")
+		ministryName := strings.Trim(parts[3], "\" ")
+		createdStr := strings.TrimSpace(strings.Trim(parts[4], "\" "))
+		relID := strings.Trim(parts[5], "\" ")
 
-		// Parse date
-		created, err := time.Parse("2006-01-02T15:04:05Z", createdStr)
+		// Skip if rel_id is NULL or empty
+		if relID == "NULL" || relID == "" {
+			continue
+		}
+
+		// Parse date - handle format like "2020-08-09T00:00Z"
+		createdStr = strings.TrimSuffix(createdStr, "Z")
+		created, err := time.Parse("2006-01-02T15:04", createdStr)
 		if err != nil {
-			// Try alternate format
+			// Try alternate format without time
 			created, err = time.Parse("2006-01-02", createdStr)
 			if err != nil {
 				fmt.Printf("Warning: Could not parse date %s: %v\n", createdStr, err)

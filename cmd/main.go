@@ -81,8 +81,8 @@ func main() {
 
 	flag.Parse()
 
-	// Validate data directory
-	if *dataDir == "" {
+	// Validate data directory (not required for fix-secretary-dates)
+	if !*fixSecretaryDates && *dataDir == "" {
 		fmt.Fprintf(os.Stderr, "Error: Data directory path is required\n\n")
 		flag.Usage()
 		os.Exit(1)
@@ -95,9 +95,11 @@ func main() {
 		os.Exit(1)
 	}
 
-	// Ensure the data directory exists
-	if _, err := os.Stat(*dataDir); os.IsNotExist(err) {
-		log.Fatalf("Data directory does not exist: %s", *dataDir)
+	// Ensure the data directory exists (skip if fixing secretary dates)
+	if !*fixSecretaryDates {
+		if _, err := os.Stat(*dataDir); os.IsNotExist(err) {
+			log.Fatalf("Data directory does not exist: %s", *dataDir)
+		}
 	}
 
 	// Convert to absolute path
