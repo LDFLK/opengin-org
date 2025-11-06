@@ -1,0 +1,6 @@
+transaction_id,parent,parent_type,child,child_type,rel_type,date
+2458-65_tr_17,Minister of Justice and National Integration,minister,Sri Lanka International Arbitration Centre (Guarantee) Ltd,department,AS_DEPARTMENT,2025-10-18
+2458-65_tr_18,Minister of Justice and National Integration,minister,Rehabilitation Commissioner General's Office,department,AS_DEPARTMENT,2025-10-18
+2458-65_tr_19,"Minister of Education, Higher Education and Vocational Education",minister,Sri Lanka Publication Development Board,department,AS_DEPARTMENT,2025-10-18
+2458-65_tr_23,"Minister of Trade, Commerce, Food Security and Cooperative Development",minister,Lanka General Trading Company Ltd.,department,AS_DEPARTMENT,2025-10-18
+2458-65_tr_44,Minister of Industry and Entrepreneurship Development,minister,Kahagolla Engineering Services Company Ltd. (KESCO),department,AS_DEPARTMENT,2025-10-18

@@ -1,0 +1,12 @@
+transaction_id,parent,parent_type,child,child_type,rel_type,date
+2458-65_tr_01,Minister of Defence,minister,National Hydrographic Council ,department,AS_DEPARTMENT,2025-10-18
+2458-65_tr_02,Minister of Defence,minister,Sri Lanka National Hydrographic Office,department,AS_DEPARTMENT,2025-10-18
+2458-65_tr_07,"Minister of Finance, Planning and Economic Development",minister,Gambling Regulatory Authority,department,AS_DEPARTMENT,2025-10-18
+2458-65_tr_10,Minister of Energy,minister,National System Operator (Pvt) Ltd,department,AS_DEPARTMENT,2025-10-18
+2458-65_tr_11,Minister of Energy,minister,National Transmission Network Service Provider (Pvt) Ltd,department,AS_DEPARTMENT,2025-10-18
+2458-65_tr_12,Minister of Energy,minister,Electricity Distribution Lanka (Pvt) Ltd,department,AS_DEPARTMENT,2025-10-18
+2458-65_tr_13,Minister of Energy,minister,Electricity Generation Lanka (Pvt) Ltd,department,AS_DEPARTMENT,2025-10-18
+2458-65_tr_26,Minister of Health and Mass Media,minister,Sri Lanka Nursing Council,department,AS_DEPARTMENT,2025-10-18
+2458-65_tr_39,Minister of Public Security and Parliamentary Affairs,minister,Bureau of Rehabilitation,department,AS_DEPARTMENT,2025-10-18
+2458-65_tr_43,"Minister of Rural Development, Social Security and Community Empowerment",minister,Partnership Secretariat for WFP Co-operation,department,AS_DEPARTMENT,2025-10-18
+2458-65_tr_59,"Minister of Housing, Construction and Water Supply",minister,Construction Guarantee Fund,department,AS_DEPARTMENT,2025-10-18
