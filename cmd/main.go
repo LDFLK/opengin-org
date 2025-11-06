@@ -61,6 +61,7 @@ func main() {
 	queryEndpoint := flag.String("query_endpoint", "http://localhost:8081/v1/entities", "Endpoint for the Query API (default: http://localhost:8081/v1/entities)")
 	processType := flag.String("type", "organisation", "Type of data to process: 'organisation' or 'person' or 'document' or 'secretary' (default: organisation)")
 	fixSecretaryDates := flag.Bool("fix-secretary-dates", false, "Fix StartTime and EndTime for all secretary appointments based on ministry creation dates")
+	processSecretaryOperations := flag.Bool("process-secretary-operations", false, "Process secretary appointments after ministry renames with cascade logic")
 
 	// Custom usage message
 	flag.Usage = func() {
@@ -81,8 +82,8 @@ func main() {
 
 	flag.Parse()
 
-	// Validate data directory (not required for fix-secretary-dates)
-	if !*fixSecretaryDates && *dataDir == "" {
+	// Validate data directory (not required for fix-secretary-dates or process-secretary-operations)
+	if !*fixSecretaryDates && !*processSecretaryOperations && *dataDir == "" {
 		fmt.Fprintf(os.Stderr, "Error: Data directory path is required\n\n")
 		flag.Usage()
 		os.Exit(1)
@@ -95,17 +96,21 @@ func main() {
 		os.Exit(1)
 	}
 
-	// Ensure the data directory exists (skip if fixing secretary dates)
-	if !*fixSecretaryDates {
+	// Ensure the data directory exists (skip if fixing secretary dates or processing secretary operations)
+	if !*fixSecretaryDates && !*processSecretaryOperations {
 		if _, err := os.Stat(*dataDir); os.IsNotExist(err) {
 			log.Fatalf("Data directory does not exist: %s", *dataDir)
 		}
 	}
 
-	// Convert to absolute path
-	absDataDir, err := filepath.Abs(*dataDir)
-	if err != nil {
-		log.Fatalf("Failed to get absolute path: %v", err)
+	// Convert to absolute path (only if dataDir is provided)
+	var absDataDir string
+	if *dataDir != "" {
+		var err error
+		absDataDir, err = filepath.Abs(*dataDir)
+		if err != nil {
+			log.Fatalf("Failed to get absolute path: %v", err)
+		}
 	}
 
 	// Create API client with configurable endpoints
@@ -114,11 +119,22 @@ func main() {
 	// Handle fix-secretary-dates flag
 	if *fixSecretaryDates {
 		fmt.Println("Fixing secretary appointment dates...")
-		err := client.FixSecretaryMoveOnMinistryRename()
+		err := client.ProcessAllSecretaryOperations()
 		if err != nil {
 			log.Fatalf("Failed to fix secretary appointment dates: %v", err)
 		}
 		fmt.Println("Successfully fixed secretary appointment dates")
+		return
+	}
+
+	// Handle process-secretary-operations flag
+	if *processSecretaryOperations {
+		fmt.Println("Processing secretary operations (renames and cascade terminations)...")
+		err := client.ProcessAllSecretaryOperations()
+		if err != nil {
+			log.Fatalf("Failed to process secretary operations: %v", err)
+		}
+		fmt.Println("Successfully processed secretary operations")
 		return
 	}
 
@@ -134,6 +150,7 @@ func main() {
 
 	// Process transactions
 	fmt.Printf("Processing %s transactions from directory: %s\n", *processType, absDataDir)
+	var err error
 	if *processType == "document" {
 		err = client.ProcessDocumentTransactions(absDataDir, *processType)
 	} else if *processType == "secretary" {
