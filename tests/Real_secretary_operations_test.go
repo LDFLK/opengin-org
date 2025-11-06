@@ -567,10 +567,9 @@ func TestSecretaryCascade_ValidationSummary(t *testing.T) {
 		{"J. A. Ranjith", "A", 2},
 		{"R. M. I. Rathnayake", "B", 3},
 		{"W. A. Chulananda Perera", "C", 4},
-		{"R. W. R. Pemasiri", "D", 3}, // +1 phantom
-		{"R. A. A. K. Ranawaka", "D", 3}, // +1 phantom
-		{"S. Hettiarachchi", "D", 5}, // +1 phantom
-	}
+		{"R. W. R. Pemasiri", "D", 3}, 
+		{"R. A. A. K. Ranawaka", "D", 3}, 
+		{"S. Hettiarachchi", "D", 5},
 	
 	passCount := 0
 	failCount := 0
