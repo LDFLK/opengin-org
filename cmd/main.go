@@ -115,18 +115,7 @@ func main() {
 
 	// Create API client with configurable endpoints
 	client := api.NewClient(*updateEndpoint, *queryEndpoint)
-
-	// Handle fix-secretary-dates flag
-	if *fixSecretaryDates {
-		fmt.Println("Fixing secretary appointment dates...")
-		err := client.ProcessAllSecretaryOperations()
-		if err != nil {
-			log.Fatalf("Failed to fix secretary appointment dates: %v", err)
-		}
-		fmt.Println("Successfully fixed secretary appointment dates")
-		return
-	}
-
+	
 	// Handle process-secretary-operations flag
 	if *processSecretaryOperations {
 		fmt.Println("Processing secretary operations (renames and cascade terminations)...")

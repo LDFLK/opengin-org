@@ -43,7 +43,7 @@ func (c *Client) ProcessAllSecretaryOperations() error {
 	for _, rename := range renames {
 		log.Printf("\nProcessing rename: %s -> %s (Date: %v)", rename.OldMinistryName, rename.NewMinistryName, rename.RenameDate)
 
-		// STEP 2:The Process Secretaries in Old Ministry
+		// STEP 2:The Process Secretaries in Old Ministry 
 		err := c.processOldMinistrySecretaries(rename)
 		if err != nil {
 			log.Printf("Error processing old ministry secretaries: %v", err)
