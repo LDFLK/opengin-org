@@ -1,0 +1,5 @@
+transaction_id,parent,parent_type,child,child_type,rel_type,date
+2413-25_tr_01,"Minister of Transport, Highways, Ports and Civil Aviation",cabinetMinister,K.D.S.Ruwanchandra,citizen,AS_APPOINTED,2024-11-20
+2413-25_tr_02,"Minister of Finance, Economic Development, Policy Formulation, Planning and Tourism",cabinetMinister,K.M.M.Siriwardana,citizen,AS_APPOINTED,2024-11-20
+2413-25_tr_03,"Minister of Agriculture, Lands, Livestock, Irrigation, Fisheries and Aquatic Resources",cabinetMinister,M.P.N.M.Wickramasinghe,citizen,AS_APPOINTED,2024-11-20
+2413-25_tr_04,"Minister of Education, Science and Technology",cabinetMinister,J.M.T.Jayasundara,citizen,AS_APPOINTED,2024-11-20
