@@ -24,11 +24,9 @@ type Client struct {
 
 // NewClient creates a new API client with automatic retry logic.
 //
-// Retry policy (mirrors the Python api_retry_decorator):
+// Retry policy:
 //   - 400 / 404 responses are not retried
 //   - 500 / 502 / 503 / 504 and network errors are retried
-//   - Exponential back-off: initial=1s, multiplier=2×, maximum=6s, timeout≈120s
-//     Wait sequence: 1+2+4+6+6+6... ≈ 121 s of total back-off across 21 retries
 func NewClient(updateURL, queryURL string) *Client {
 	rc := retryablehttp.NewClient()
 	rc.RetryMax = 10
