@@ -18,11 +18,11 @@ import (
 	"flag"
 	"fmt"
 	"log"
-	"strings"
-	"time"
 
 	"orgchart_nexoan/api"
 	"orgchart_nexoan/models"
+
+	"github.com/google/uuid"
 )
 
 // ministerMinorKinds lists the minorKind values that identify a minister.
@@ -61,13 +61,14 @@ func main() {
 				i+1, len(ministers), minister.Name, minister.ID)
 			totalProcessed++
 
-			linked, err := processAppointments(client, minister)
+			linked, errs, err := processAppointments(client, minister)
 			if err != nil {
 				log.Printf("  ERROR: %v", err)
 				totalErrors++
 			} else {
 				fmt.Printf("  Linked %d citizen(s) to minister node\n", linked)
 				totalLinked += linked
+				totalErrors += errs
 			}
 		}
 	}
@@ -81,21 +82,22 @@ func main() {
 // processAppointments fetches all AS_APPOINTED relationships on the given
 // minister and creates an AS_ROLE relationship from each citizen to the
 // minister's org-structure node. Returns the number of relationships created.
-func processAppointments(client *api.Client, minister models.SearchResult) (int, error) {
+func processAppointments(client *api.Client, minister models.SearchResult) (linked int, errors int, err error) {
 	appointments, err := client.GetRelatedEntities(minister.ID, &models.Relationship{
 		Name: "AS_APPOINTED",
 	})
 	if err != nil {
-		return 0, fmt.Errorf("failed to get AS_APPOINTED relationships for %s: %w", minister.ID, err)
+		return 0, 0, fmt.Errorf("failed to get AS_APPOINTED relationships for %s: %w", minister.ID, err)
 	}
 
 	if len(appointments) == 0 {
 		fmt.Printf("  No AS_APPOINTED relationships found — skipping\n")
-		return 0, nil
+		return 0, 0, nil
 	}
 
 	ministerNodeID := fmt.Sprintf("%s_minister", minister.ID)
-	linked := 0
+	linked = 0
+	errors = 0
 
 	for _, rel := range appointments {
 		citizenID := rel.RelatedEntityID
@@ -107,6 +109,7 @@ func processAppointments(client *api.Client, minister models.SearchResult) (int,
 		err := linkCitizenToMinisterNode(client, citizenID, ministerNodeID, rel.StartTime, rel.EndTime)
 		if err != nil {
 			log.Printf("  ERROR linking citizen %s to %s: %v", citizenID, ministerNodeID, err)
+			errors++
 			continue
 		}
 
@@ -115,7 +118,7 @@ func processAppointments(client *api.Client, minister models.SearchResult) (int,
 		linked++
 	}
 
-	return linked, nil
+	return linked, errors, nil
 }
 
 // linkCitizenToMinisterNode adds an AS_ROLE relationship from the citizen
@@ -124,7 +127,7 @@ func linkCitizenToMinisterNode(client *api.Client, citizenID, ministerNodeID, st
 	relID := fmt.Sprintf("%s_%s_%s",
 		citizenID,
 		ministerNodeID,
-		strings.ReplaceAll(time.Now().Format(time.RFC3339), ":", "-"),
+		uuid.New().String(),
 	)
 
 	_, err := client.UpdateEntity(citizenID, &models.Entity{

@@ -116,7 +116,7 @@ func processMinister(client *api.Client, minister models.SearchResult) (created 
 	}
 
 	// Step 3: Create the Organisation node.
-	orgName := fmt.Sprintf("%s Organisation", minister.Name)
+	orgName := "Organisation"
 	orgID := fmt.Sprintf("%s_org", minister.ID)
 
 	orgEntity := &models.Entity{
