@@ -163,6 +163,12 @@ func (c *Client) ProcessTransactions(dataDir string, processType string) error {
 					return fmt.Errorf("failed to process terminate transaction %s: %w", transaction["transaction_id"], err)
 				}
 				fmt.Printf("Processed Terminate transaction: %s\n", transaction["transaction_id"])
+			} else if processType == "secretary" {
+				err := c.TerminateSecretaryEntity(transaction)
+				if err != nil {
+					return fmt.Errorf("failed to process terminate transaction %s: %w", transaction["transaction_id"], err)
+				}
+				fmt.Printf("Processed Terminate transaction: %s\n", transaction["transaction_id"])
 			}
 
 		case "MOVE":
