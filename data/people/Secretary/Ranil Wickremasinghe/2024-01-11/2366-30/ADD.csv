@@ -1,0 +1,12 @@
+transaction_id,parent,parent_type,child,child_type,rel_type,date
+2366-30_tr_01,Minister of Education,minister,Wasantha Perera,citizen,SECRETARY_APPOINTED,2024-01-11
+2366-30_tr_02,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,M.N. Ranasinghe,citizen,SECRETARY_APPOINTED,2024-01-11
+2366-30_tr_03,Minister of Wildlife and Forest Resources Conservation,minister,Gunadasa Samarasinghe,citizen,SECRETARY_APPOINTED,2024-01-11
+2366-30_tr_04,"Minister of Public Administration, Home Affairs, Provincial Councils and Local Government",minister,W.P.P. Yasarathne,citizen,SECRETARY_APPOINTED,2024-01-11
+2366-30_tr_05,Minister of Irrigation,minister,Saman Darshana Pandikorala,citizen,SECRETARY_APPOINTED,2024-01-11
+2366-30_tr_06,Minister of Water Supply and Estate Infrastructure Development,minister,A.C.M. Nafeel,citizen,SECRETARY_APPOINTED,2024-01-11
+2366-30_tr_07,Minister of Fisheries,minister,K.N.K. Somaratne,citizen,SECRETARY_APPOINTED,2024-01-11
+2366-30_tr_08,Minister of Environment,minister,B.K.P. Chandrakeerthi,citizen,SECRETARY_APPOINTED,2024-01-11
+2366-30_tr_09,Minister of Power and Energy,minister,J.G.L.S. Jayawardena,citizen,SECRETARY_APPOINTED,2024-01-11
+2366-30_tr_10,Minister of Technology,minister,Dharmasri Kumaratunge,citizen,SECRETARY_APPOINTED,2024-01-11
+2366-30_tr_11,Minister of Transport and Highways,minister,Ranjith Ganganath Rubasinghe,citizen,SECRETARY_APPOINTED,2024-01-11

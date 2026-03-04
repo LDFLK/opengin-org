@@ -1,0 +1,11 @@
+transaction_id,parent,parent_type,child,child_type,rel_type,date
+2219-33_tr_01,Minister of Agriculture,minister,M. B. R. Pushpakumara,citizen,SECRETARY_APPOINTED,2021-03-16
+2219-33_tr_02,Minister of Wildlife and Forest Conservation,minister,Somaratna Vidanapathirana,citizen,SECRETARY_APPOINTED,2021-03-16
+2219-33_tr_03,State Minister of Provincial Councils and Local Government,minister,S. D. A. B. Boralessa,citizen,SECRETARY_APPOINTED,2021-03-16
+2219-33_tr_04,State Minister of National Security and Disaster Management,minister,Kamal Gunaratna,citizen,SECRETARY_APPOINTED,2021-03-16
+2219-33_tr_05,State Minister of Home Affairs,minister,N. H. M. Chithrananda,citizen,SECRETARY_APPOINTED,2021-03-16
+2219-33_tr_06,State Minister of Regional Cooperation,minister,A. Senanayaka,citizen,SECRETARY_APPOINTED,2021-03-16
+2219-33_tr_07,"State Minister of Primary Health Care, Epidemics and COVID Disease Control",minister,R. Sunethra Gunawardana,citizen,SECRETARY_APPOINTED,2021-03-16
+2219-33_tr_08,State Minister of Backward Rural Areas Development and Promotion of Domestic Animal Husbandry and Minor Economic Crop Cultivation,minister,Amal Harsha de Silva,citizen,SECRETARY_APPOINTED,2021-03-16
+2219-33_tr_09,"State Minister of Batik, Handloom and Local Apparel Products",minister,B. L. A. J. Dharmakeerthi,citizen,SECRETARY_APPOINTED,2021-03-16
+2219-33_tr_10,"State Minister of National Heritage, Performing Arts and Rural Arts Promotion",minister,K. A. D. R. Nishanthi Jayasingha,citizen,SECRETARY_APPOINTED,2021-03-16

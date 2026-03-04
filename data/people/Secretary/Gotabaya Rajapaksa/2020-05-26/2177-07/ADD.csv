@@ -1,0 +1,8 @@
+transaction_id,parent,parent_type,child,child_type,rel_type,date
+2177-07_tr_01,"Minister of Justice, Human Rights & Law Reforms",minister,S. M. Mohamed,citizen,SECRETARY_APPOINTED,2020-05-20
+2177-07_tr_02,"Minister of Public Administration, Home Affairs, Provincial Councils & Local Government",minister,J. J. Rathnasiri,citizen,SECRETARY_APPOINTED,2020-05-20
+2177-07_tr_03,Minister of Tourism and Civil Aviation,minister,S. Hettiarachchi,citizen,SECRETARY_APPOINTED,2020-05-20
+2177-07_tr_04,"Minister of Internal Trade, Food Security and Consumer Welfare",minister,J. M. B. Jayawardana,citizen,SECRETARY_APPOINTED,2020-05-20
+2177-07_tr_05,Minister of Women & Child Affairs and Social Security,minister,H. K. D. W. M. N. B. Hapuhinna,citizen,SECRETARY_APPOINTED,2020-05-20
+2177-07_tr_06,Minister of Healthcare and Indigenous Medical Services,minister,Sanjeewa Munasinghe,citizen,SECRETARY_APPOINTED,2020-05-20
+2177-07_tr_07,"Minister of Mahaweli, Agriculture, Irrigation and Rural Development",minister,A. K. S. Perera,citizen,SECRETARY_APPOINTED,2020-05-20

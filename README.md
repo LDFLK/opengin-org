@@ -62,15 +62,19 @@ The tool can be run with various options:
 
 # Use custom API endpoints
 ./orgchart -data /path/to/data/directory -update_endpoint http://custom:8080/entities -query_endpoint http://custom:8081/v1/entities
+
+# Process secretary operations (cascade logic for ministry renames)
+./orgchart -process-secretary-operations
 ```
 
 ### Command Line Options
 
-- `-data`: (Required) Path to the data directory containing transactions
+- `-data`: (Required for data processing) Path to the data directory containing transactions
 - `-init`: (Optional) Initialize the database with government node
 - `-type`: (Optional) Type of data to process: 'organisation' or 'people' (default: organisation)
 - `-update_endpoint`: (Optional) Endpoint for the Update API (default: "http://localhost:8080/entities")
 - `-query_endpoint`: (Optional) Endpoint for the Query API (default: "http://localhost:8081/v1/entities")
+- `-process-secretary-operations`: (Optional) Process secretary cascade operations for ministry renames
 
 ### Process Types
 
@@ -159,6 +163,57 @@ The tool uses two main API endpoints:
 ./orgchart -data $(pwd)/data/orgchart/akd/2024-09-27/ -init true
 ./orgchart -data $(pwd)/data/people/akd/2024-09-25/ -type person
 ```
+
+## Secretary Operations
+
+### What It Does
+
+When a ministry is renamed (e.g., "Minister of Roads and Highways" → "Minister of Highways"), the tool:
+
+1. **Detects Ministry Renames**: Finds all `RENAMED_TO` relationships
+2. **Processes Old Ministry Secretaries**: 
+   - Applies termination chain (each secretary ends when next starts)
+   - Terminates active secretary on rename date
+3. **Moves Secretaries**: Moves secretary to new ministry if terminated on rename date
+4. **Processes New Ministry Secretaries**: Creates continuous service records
+
+### Running Secretary Operations
+
+```bash
+# Process all secretary operations (must be run after data is loaded)
+./orgchart -process-secretary-operations
+```
+
+**Note**: This command should be run after loading all ministry and secretary data into the database.
+
+### Helper Scripts
+
+#### Load All Secretaries
+
+A convenience script to load all secretary data at once:
+
+```bash
+# Load all secretary data for all presidents
+./load_all_secretaries.sh
+```bash
+./load_all_secretaries.sh
+./orgchart -process-secretary-operations
+```
+
+### Testing Secretary Operations
+
+The project includes comprehensive test suites for secretary operations:
+
+```bash
+# Run all secretary operation tests (unit + integration)
+cd tests
+go test -v secretary_operations_test.go
+
+# Run only unit tests 
+go test -v -short secretary_operations_test.go
+
+# Run real-world validation tests
+go test -v Real_secretary_operations_test.go
 
 
 ## Development
