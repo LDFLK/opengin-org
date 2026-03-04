@@ -1,10 +1,9 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2413-25_tr_01,"Minister of Transport, Highways, Ports and Civil Aviation",cabinetMinister,Kapila C.K.Perera,citizen,AS_APPOINTED,2024-11-20
-2413-25_tr_02,"Minister of Finance, Planning and Economic Development",cabinetMinister,K.M.M.Siriwardana,citizen,AS_APPOINTED,2024-11-20
-2413-25_tr_03,Minister of Industry and Entrepreneurship Development,cabinetMinister,J.M.Thilaka Jayasundara,citizen,AS_APPOINTED,2024-11-20
-2413-25_tr_04,Minister of Plantation and Community Infrastructure,cabinetMinister,B.K.Prabath Chandrakeerthi,citizen,AS_APPOINTED,2024-11-20
-2413-25_tr_05,"Minister of Urban Development, Construction and Housing",cabinetMinister,U.G.Ranjith Ariyaratne,citizen,AS_APPOINTED,2024-11-20
-2413-25_tr_06,Minister of Labour,cabinetMinister,S.M.Piyatissa,citizen,AS_APPOINTED,2024-11-20
-2413-25_tr_07,"Minister of Agriculture, Livestock, Land and Irrigation",cabinetMinister,D.P.Wickramasinghe,citizen,AS_APPOINTED,2024-11-20
-2413-25_tr_08,"Minister of Education, Higher Education and Vocational Education",cabinetMinister,K.M.G.S.Nalaka Kaluwewa,citizen,AS_APPOINTED,2024-11-20
-2413-25_tr_09,Minister of Youth Affairs and Sports,cabinetMinister,A.H.M.U.Aruna Bandara,citizen,AS_APPOINTED,2024-11-20
+2413-25_tr_04,"Minister of Transport, Highways, Ports and Civil Aviation",cabinetMinister,Kapila C.K.Perera,citizen,AS_APPOINTED,2024-11-20
+2413-25_tr_05,Minister of Industry and Entrepreneurship Development,cabinetMinister,J.M.Thilaka Jayasundara,citizen,AS_APPOINTED,2024-11-20
+2413-25_tr_06,Minister of Plantation and Community Infrastructure,cabinetMinister,B.K.Prabath Chandrakeerthi,citizen,AS_APPOINTED,2024-11-20
+2413-25_tr_07,"Minister of Urban Development, Construction and Housing",cabinetMinister,U.G.Ranjith Ariyaratne,citizen,AS_APPOINTED,2024-11-20
+2413-25_tr_08,Minister of Labour,cabinetMinister,S.M.Piyatissa,citizen,AS_APPOINTED,2024-11-20
+2413-25_tr_09,"Minister of Agriculture, Livestock, Land and Irrigation",cabinetMinister,D.P.Wickramasinghe,citizen,AS_APPOINTED,2024-11-20
+2413-25_tr_10,"Minister of Education, Higher Education and Vocational Education",cabinetMinister,K.M.G.S.Nalaka Kaluwewa,citizen,AS_APPOINTED,2024-11-20
+2413-25_tr_11,Minister of Youth Affairs and Sports,cabinetMinister,A.H.M.U.Aruna Bandara,citizen,AS_APPOINTED,2024-11-20
