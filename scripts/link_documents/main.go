@@ -275,7 +275,7 @@ func main() {
 	// Find all CSV files in the directory
 	csvFiles, err := filepath.Glob(filepath.Join(csvDir, "*.csv"))
 	if err != nil {
-		log.Fatalf("Failed to find CSV files: %v", err)
+		log.Fatalf("Failed to find CSV files: %v\n", err)
 	}
 
 	if len(csvFiles) == 0 {

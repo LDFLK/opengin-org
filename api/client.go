@@ -11,23 +11,34 @@ import (
 	"time"
 
 	"orgchart_nexoan/models"
+
+	"github.com/hashicorp/go-retryablehttp"
 )
 
 // Client represents the API client
 type Client struct {
 	updateURL  string
 	queryURL   string
-	httpClient *http.Client
+	httpClient *retryablehttp.Client
 }
 
-// NewClient creates a new API client
+// NewClient creates a new API client with automatic retry logic.
+//
+// Retry policy:
+//   - 400 / 404 responses are not retried
+//   - 500 / 502 / 503 / 504 and network errors are retried
 func NewClient(updateURL, queryURL string) *Client {
+	rc := retryablehttp.NewClient()
+	rc.RetryMax = 10
+	rc.RetryWaitMin = 1 * time.Second
+	rc.RetryWaitMax = 6 * time.Second
+	rc.CheckRetry = customCheckRetry
+	rc.Logger = nil // silence the default per-request log lines
+
 	return &Client{
-		updateURL: updateURL,
-		queryURL:  queryURL,
-		httpClient: &http.Client{
-			Timeout: time.Second * 30,
-		},
+		updateURL:  updateURL,
+		queryURL:   queryURL,
+		httpClient: rc,
 	}
 }
 
@@ -38,22 +49,23 @@ func (c *Client) CreateEntity(entity *models.Entity) (*models.Entity, error) {
 		return nil, fmt.Errorf("failed to marshal entity: %w", err)
 	}
 
-	resp, err := c.httpClient.Post(
-		c.updateURL,
-		"application/json",
-		bytes.NewBuffer(jsonData),
-	)
+	resp, err := c.httpClient.Post(c.updateURL, "application/json", bytes.NewBuffer(jsonData))
 	if err != nil {
 		return nil, fmt.Errorf("failed to create entity: %w", err)
 	}
 	defer resp.Body.Close()
 
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("failed to read response body: %w", err)
+	}
+
 	if resp.StatusCode != http.StatusCreated {
-		return nil, fmt.Errorf("unexpected status code: %d", resp.StatusCode)
+		return nil, httpErrorFromStatus(resp.StatusCode, string(body))
 	}
 
 	var createdEntity models.Entity
-	if err := json.NewDecoder(resp.Body).Decode(&createdEntity); err != nil {
+	if err := json.Unmarshal(body, &createdEntity); err != nil {
 		return nil, fmt.Errorf("failed to decode response: %w", err)
 	}
 
@@ -70,7 +82,7 @@ func (c *Client) UpdateEntity(id string, entity *models.Entity) (*models.Entity,
 	// URL encode the entity ID to handle special characters like slashes
 	encodedID := url.QueryEscape(id)
 
-	req, err := http.NewRequest(
+	req, err := retryablehttp.NewRequest(
 		http.MethodPut,
 		fmt.Sprintf("%s/%s", c.updateURL, encodedID),
 		bytes.NewBuffer(jsonData),
@@ -86,12 +98,17 @@ func (c *Client) UpdateEntity(id string, entity *models.Entity) (*models.Entity,
 	}
 	defer resp.Body.Close()
 
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("failed to read response body: %w", err)
+	}
+
 	if resp.StatusCode != http.StatusOK {
-		return nil, fmt.Errorf("unexpected status code: %d", resp.StatusCode)
+		return nil, httpErrorFromStatus(resp.StatusCode, string(body))
 	}
 
 	var updatedEntity models.Entity
-	if err := json.NewDecoder(resp.Body).Decode(&updatedEntity); err != nil {
+	if err := json.Unmarshal(body, &updatedEntity); err != nil {
 		return nil, fmt.Errorf("failed to decode response: %w", err)
 	}
 
@@ -100,7 +117,7 @@ func (c *Client) UpdateEntity(id string, entity *models.Entity) (*models.Entity,
 
 // DeleteEntity deletes an entity
 func (c *Client) DeleteEntity(id string) error {
-	req, err := http.NewRequest(
+	req, err := retryablehttp.NewRequest(
 		http.MethodDelete,
 		fmt.Sprintf("%s/%s", c.updateURL, id),
 		nil,
@@ -116,7 +133,8 @@ func (c *Client) DeleteEntity(id string) error {
 	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusNoContent {
-		return fmt.Errorf("unexpected status code: %d", resp.StatusCode)
+		body, _ := io.ReadAll(resp.Body)
+		return httpErrorFromStatus(resp.StatusCode, string(body))
 	}
 
 	return nil
@@ -127,20 +145,23 @@ func (c *Client) GetRootEntities(kind string) ([]string, error) {
 	params := url.Values{}
 	params.Add("kind", kind)
 
-	resp, err := c.httpClient.Get(
-		fmt.Sprintf("%s/root?%s", c.queryURL, params.Encode()),
-	)
+	resp, err := c.httpClient.Get(fmt.Sprintf("%s/root?%s", c.queryURL, params.Encode()))
 	if err != nil {
 		return nil, fmt.Errorf("failed to get root entities: %w", err)
 	}
 	defer resp.Body.Close()
 
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("failed to read response body: %w", err)
+	}
+
 	if resp.StatusCode != http.StatusOK {
-		return nil, fmt.Errorf("unexpected status code: %d", resp.StatusCode)
+		return nil, httpErrorFromStatus(resp.StatusCode, string(body))
 	}
 
 	var response models.RootEntitiesResponse
-	if err := json.NewDecoder(resp.Body).Decode(&response); err != nil {
+	if err := json.Unmarshal(body, &response); err != nil {
 		return nil, fmt.Errorf("failed to decode response: %w", err)
 	}
 
@@ -164,18 +185,17 @@ func (c *Client) SearchEntities(criteria *models.SearchCriteria) ([]models.Searc
 	}
 	defer resp.Body.Close()
 
-	if resp.StatusCode != http.StatusOK {
-		return nil, fmt.Errorf("unexpected status code: %d", resp.StatusCode)
-	}
-
-	// Read the raw response body
-	bodyBytes, err := io.ReadAll(resp.Body)
+	body, err := io.ReadAll(resp.Body)
 	if err != nil {
 		return nil, fmt.Errorf("failed to read response body: %w", err)
 	}
 
+	if resp.StatusCode != http.StatusOK {
+		return nil, httpErrorFromStatus(resp.StatusCode, string(body))
+	}
+
 	var response models.SearchResponse
-	if err := json.Unmarshal(bodyBytes, &response); err != nil {
+	if err := json.Unmarshal(body, &response); err != nil {
 		return nil, fmt.Errorf("failed to decode response: %w", err)
 	}
 
@@ -203,20 +223,23 @@ func (c *Client) SearchEntities(criteria *models.SearchCriteria) ([]models.Searc
 
 // GetEntityMetadata gets metadata of an entity
 func (c *Client) GetEntityMetadata(entityID string) (map[string]interface{}, error) {
-	resp, err := c.httpClient.Get(
-		fmt.Sprintf("%s/%s/metadata", c.queryURL, entityID),
-	)
+	resp, err := c.httpClient.Get(fmt.Sprintf("%s/%s/metadata", c.queryURL, entityID))
 	if err != nil {
 		return nil, fmt.Errorf("failed to get entity metadata: %w", err)
 	}
 	defer resp.Body.Close()
 
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("failed to read response body: %w", err)
+	}
+
 	if resp.StatusCode != http.StatusOK {
-		return nil, fmt.Errorf("unexpected status code: %d", resp.StatusCode)
+		return nil, httpErrorFromStatus(resp.StatusCode, string(body))
 	}
 
 	var metadata map[string]interface{}
-	if err := json.NewDecoder(resp.Body).Decode(&metadata); err != nil {
+	if err := json.Unmarshal(body, &metadata); err != nil {
 		return nil, fmt.Errorf("failed to decode response: %w", err)
 	}
 
@@ -225,22 +248,31 @@ func (c *Client) GetEntityMetadata(entityID string) (map[string]interface{}, err
 
 // GetEntityAttribute retrieves a specific attribute of an entity
 func (c *Client) GetEntityAttribute(entityID, attributeName string, startTime, endTime string) (interface{}, error) {
-	url := fmt.Sprintf("%s/%s/attributes/%s", c.queryURL, entityID, attributeName)
+	reqURL := fmt.Sprintf("%s/%s/attributes/%s", c.queryURL, entityID, attributeName)
 	if startTime != "" {
-		url += fmt.Sprintf("?startTime=%s", startTime)
+		reqURL += fmt.Sprintf("?startTime=%s", startTime)
 		if endTime != "" {
-			url += fmt.Sprintf("&endTime=%s", endTime)
+			reqURL += fmt.Sprintf("&endTime=%s", endTime)
 		}
 	}
 
-	resp, err := c.httpClient.Get(url)
+	resp, err := c.httpClient.Get(reqURL)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get entity attribute: %w", err)
 	}
 	defer resp.Body.Close()
 
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("failed to read response body: %w", err)
+	}
+
+	if resp.StatusCode != http.StatusOK {
+		return nil, httpErrorFromStatus(resp.StatusCode, string(body))
+	}
+
 	var result interface{}
-	if err := json.NewDecoder(resp.Body).Decode(&result); err != nil {
+	if err := json.Unmarshal(body, &result); err != nil {
 		return nil, fmt.Errorf("failed to decode response: %w", err)
 	}
 
@@ -254,7 +286,6 @@ func (c *Client) GetRelatedEntities(entityID string, query *models.Relationship)
 		return nil, fmt.Errorf("failed to marshal query: %w", err)
 	}
 
-	// URL encode the entity ID to handle special characters like slashes
 	encodedID := url.QueryEscape(entityID)
 
 	resp, err := c.httpClient.Post(
@@ -267,42 +298,19 @@ func (c *Client) GetRelatedEntities(entityID string, query *models.Relationship)
 	}
 	defer resp.Body.Close()
 
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("failed to read response body: %w", err)
+	}
+
 	if resp.StatusCode != http.StatusOK {
-		body, _ := io.ReadAll(resp.Body)
-		return nil, fmt.Errorf("unexpected status code: %d, body: %s", resp.StatusCode, string(body))
+		return nil, httpErrorFromStatus(resp.StatusCode, string(body))
 	}
 
 	var relations []models.Relationship
-	if err := json.NewDecoder(resp.Body).Decode(&relations); err != nil {
+	if err := json.Unmarshal(body, &relations); err != nil {
 		return nil, fmt.Errorf("failed to decode response: %w", err)
 	}
 
 	return relations, nil
 }
-
-// GetAllRelatedEntities gets all related entity IDs without filters
-// func (c *Client) GetAllRelatedEntities(entityID string) ([]models.Relationship, error) {
-// 	// URL encode the entity ID to handle special characters like slashes
-// 	encodedID := url.QueryEscape(entityID)
-
-// 	resp, err := c.httpClient.Post(
-// 		fmt.Sprintf("%s/%s/allrelations", c.queryURL, encodedID),
-// 		"application/json",
-// 		nil,
-// 	)
-// 	if err != nil {
-// 		return nil, fmt.Errorf("failed to get all related entities: %w", err)
-// 	}
-// 	defer resp.Body.Close()
-
-// 	if resp.StatusCode != http.StatusOK {
-// 		return nil, fmt.Errorf("unexpected status code: %d", resp.StatusCode)
-// 	}
-
-// 	var relations []models.Relationship
-// 	if err := json.NewDecoder(resp.Body).Decode(&relations); err != nil {
-// 		return nil, fmt.Errorf("failed to decode response: %w", err)
-// 	}
-
-// 	return relations, nil
-// }

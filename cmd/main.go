@@ -88,8 +88,8 @@ func main() {
 	}
 
 	// Validate process type
-	if *processType != "organisation" && *processType != "person" && *processType != "document" {
-		fmt.Fprintf(os.Stderr, "Error: Invalid process type. Must be 'organisation' or 'person' or 'document'\n\n")
+	if *processType != "organisation" && *processType != "person" && *processType != "document" && *processType != "secretary" {
+		fmt.Fprintf(os.Stderr, "Error: Invalid process type. Must be 'organisation', 'person', 'document', or 'secretary'\n\n")
 		flag.Usage()
 		os.Exit(1)
 	}
@@ -120,6 +120,7 @@ func main() {
 
 	// Process transactions
 	fmt.Printf("Processing %s transactions from directory: %s\n", *processType, absDataDir)
+
 	if *processType == "document" {
 		err = client.ProcessDocumentTransactions(absDataDir, *processType)
 	} else {
