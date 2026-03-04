@@ -1,1 +1,0 @@
-Note the gazette says Kapila C.K. Perera is secretary of Ministry of Transport, Highways and Urban Development effective from 10.10.2025 however the ministry was only created on 11.10.2025. Hence, 11.10.2025 is used as the date for the appointment.
