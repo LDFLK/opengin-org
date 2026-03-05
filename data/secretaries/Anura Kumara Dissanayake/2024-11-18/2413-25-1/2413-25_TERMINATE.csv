@@ -1,0 +1,12 @@
+transaction_id,parent,parent_type,child,child_type,rel_type,date
+2413-25-1_tr_01,"Minister of Finance, Economic Development, Policy Formulation, Planning and Tourism",cabinetMinister,K.M.M.Siriwardana,citizen,AS_APPOINTED,2024-11-18
+2413-25-1_tr_02,Minister of Foreign Affairs,cabinetMinister,Aruni Wijewardana,citizen,AS_APPOINTED,2024-11-18
+2413-25-1_tr_03,"Minister of Education, Science and Technology",cabinetMinister,J.M.T.Jayasundara,citizen,AS_APPOINTED,2024-11-18
+2413-25-1_tr_04,"Minister of Women, Child and Youth Affairs and Sports",cabinetMinister,K.Mahesan,citizen,AS_APPOINTED,2024-11-18
+2413-25-1_tr_05,"Minister of Trade, Commerce, Food Security, Co-operative Development, Industry and Entrepreneurship Development",cabinetMinister,M.M.Nayeemudeen,citizen,AS_APPOINTED,2024-11-18
+2413-25-1_tr_06,"Minister of Rural and Urban Development, Housing and Construction",cabinetMinister,A.M.P.M.B.Atapattu,citizen,AS_APPOINTED,2024-11-18
+2413-25-1_tr_07,Minister of Health,cabinetMinister,Palitha Gunarathna Mahipala,citizen,AS_APPOINTED,2024-11-18
+2413-25-1_tr_08,"Minister of Environment, Wildlife, Forest Resources, Water Supply, Plantation and Community Infrastructure",cabinetMinister,B.K.Prabath Chandrakeerthi,citizen,AS_APPOINTED,2024-11-18
+2413-25-1_tr_09,"Minister of Agriculture, Lands, Livestock, Irrigation, Fisheries and Aquatic Resources",cabinetMinister,M.P.N.M.Wickramasinghe,citizen,AS_APPOINTED,2024-11-18
+2413-25-1_tr_10,"Minister of Buddhasasana, Religious and Cultural Affairs, National Integration, Social Security, and Mass Media",cabinetMinister,U.G.Ranjith Ariyaratne,citizen,AS_APPOINTED,2024-11-18
+2413-25-1_tr_11,"Minister of Justice, Public Administration, Home Affairs, Provincial Councils, Local Government and Labour",cabinetMinister,S.Alokabandara,citizen,AS_APPOINTED,2024-11-18
