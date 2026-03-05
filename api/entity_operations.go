@@ -2348,11 +2348,6 @@ func (c *Client) TerminateSecretaryEntity(transaction map[string]interface{}) er
 		return fmt.Errorf("transaction missing or invalid 'date'")
 	}
 
-	presidentName, ok := transaction["president"].(string)
-	if !ok || presidentName == "" {
-		return fmt.Errorf("transaction missing or invalid 'president'")
-	}
-
 	date, err := time.Parse("2006-01-02", strings.TrimSpace(dateStr))
 	if err != nil {
 		return fmt.Errorf("failed to parse date: %w", err)
@@ -2374,102 +2369,50 @@ func (c *Client) TerminateSecretaryEntity(transaction map[string]interface{}) er
 	}
 	citizenID := personResults[0].ID
 
-	// Step 2: Look up the president.
-	presidentEntity, err := c.GetPresidentByGovernment(presidentName)
-	if err != nil {
-		return fmt.Errorf("failed to get president '%s': %w", presidentName, err)
-	}
-
-	// Step 3: Get AS_MINISTER relationships active at dateISO.
-	ministerRels, err := c.GetRelatedEntities(presidentEntity.ID, &models.Relationship{
-		Name:     "AS_MINISTER",
-		ActiveAt: dateISO,
+	// Step 2: Get all active AS_ROLE relationships from the citizen.
+	allRoleRels, err := c.GetRelatedEntities(citizenID, &models.Relationship{
+		Name: "AS_ROLE",
 	})
 	if err != nil {
-		return fmt.Errorf("failed to get AS_MINISTER relationships for president '%s': %w", presidentName, err)
+		return fmt.Errorf("failed to get AS_ROLE relationships for citizen '%s': %w", citizenID, err)
 	}
 
-	// Step 4: Find the matched minister (same logic as AddSecretaryEntity).
-	candidateResults, err := c.SearchEntities(&models.SearchCriteria{
-		Kind: &models.Kind{Major: "Organisation", Minor: parentType},
-		Name: parent,
-	})
-	if err != nil {
-		return fmt.Errorf("failed to search for minister '%s' (%s): %w", parent, parentType, err)
-	}
-
-	activeMinisterIDs := make(map[string]struct{}, len(ministerRels))
-	for _, rel := range ministerRels {
-		activeMinisterIDs[rel.RelatedEntityID] = struct{}{}
-	}
-
-	var matchedMinisterID string
-	for _, candidate := range candidateResults {
-		if _, active := activeMinisterIDs[candidate.ID]; active {
-			if matchedMinisterID != "" {
-				return fmt.Errorf("multiple ministers match '%s' (%s) at %s", parent, parentType, dateISO)
-			}
-			matchedMinisterID = candidate.ID
+	// Step 3: Walk active rels that point to a secretary node, back-derive the
+	// ministerID by stripping "_secretary", look up the minister name, and match
+	// against the parent name provided in the transaction.
+	var activeRoleRel *models.Relationship
+	for _, rel := range allRoleRels {
+		// Only consider open (active) relationships.
+		if rel.EndTime != "" {
+			continue
 		}
+		// Only consider rels pointing to a secretary node.
+		if !strings.HasSuffix(rel.RelatedEntityID, "_secretary") {
+			continue
+		}
+		// Derive ministerID and look it up.
+		ministerID := strings.TrimSuffix(rel.RelatedEntityID, "_secretary")
+		ministerResults, err := c.SearchEntities(&models.SearchCriteria{
+			ID: ministerID,
+		})
+		if err != nil || len(ministerResults) == 0 {
+			continue
+		}
+		// Check if this minister's name matches the parent name in the transaction.
+		if ministerResults[0].Name != parent {
+			continue
+		}
+		if activeRoleRel != nil {
+			return fmt.Errorf("multiple active AS_ROLE relationships found for citizen '%s' pointing to minister '%s'", citizenID, parent)
+		}
+		r := rel
+		activeRoleRel = &r
 	}
-	if matchedMinisterID == "" {
-		return fmt.Errorf("no active minister '%s' (%s) found at %s", parent, parentType, dateISO)
-	}
-
-	// Step 5: Terminate AS_APPOINTED on the minister (minister → citizen).
-	// apptRels, err := c.GetRelatedEntities(matchedMinisterID, &models.Relationship{
-	// 	Name:            "AS_APPOINTED",
-	// 	RelatedEntityID: citizenID,
-	// })
-	// if err != nil {
-	// 	return fmt.Errorf("failed to get AS_APPOINTED relationships from minister '%s' to citizen '%s': %w", matchedMinisterID, citizenID, err)
-	// }
-
-	// var activeApptRel *models.Relationship
-	// for _, rel := range apptRels {
-	// 	if rel.EndTime == "" {
-	// 		r := rel
-	// 		activeApptRel = &r
-	// 		break
-	// 	}
-	// }
-	// if activeApptRel == nil {
-	// 	return fmt.Errorf("no active AS_APPOINTED relationship found from minister '%s' to citizen '%s'", matchedMinisterID, citizenID)
-	// }
-
-	// _, err = c.UpdateEntity(matchedMinisterID, &models.Entity{
-	// 	ID: matchedMinisterID,
-	// 	Relationships: []models.RelationshipEntry{{
-	// 		Key: activeApptRel.ID,
-	// 		Value: models.Relationship{
-	// 			EndTime: dateISO,
-	// 			ID:      activeApptRel.ID,
-	// 		},
-	// 	}},
-	// })
-	// if err != nil {
-	// 	return fmt.Errorf("failed to terminate AS_APPOINTED relationship: %w", err)
-	// }
-
-	// Step 6: Terminate AS_ROLE on the citizen (citizen → Secretary node).
-	secretaryNodeID := fmt.Sprintf("%s_secretary", matchedMinisterID)
-	roleRels, err := c.GetRelatedEntities(citizenID, &models.Relationship{
-		Name:            "AS_ROLE",
-		RelatedEntityID: secretaryNodeID,
-		ActiveAt:        dateISO,
-	})
-	if err != nil {
-		return fmt.Errorf("failed to get AS_ROLE relationships from citizen '%s' to secretary node '%s': %w", citizenID, secretaryNodeID, err)
+	if activeRoleRel == nil {
+		return fmt.Errorf("no active AS_ROLE relationship found for citizen '%s' as secretary of minister '%s'", citizenID, parent)
 	}
 
-	if len(roleRels) == 0 {
-		return fmt.Errorf("no active AS_ROLE relationship found from citizen '%s' to secretary node '%s'", citizenID, secretaryNodeID)
-	}
-	if len(roleRels) > 1 {
-		return fmt.Errorf("expected exactly one active AS_ROLE relationship from citizen '%s' to secretary node '%s', got %d", citizenID, secretaryNodeID, len(roleRels))
-	}
-	activeRoleRel := roleRels[0]
-
+	// Terminate the AS_ROLE relationship from the citizen to the secretary node.
 	_, err = c.UpdateEntity(citizenID, &models.Entity{
 		ID: citizenID,
 		Relationships: []models.RelationshipEntry{{
