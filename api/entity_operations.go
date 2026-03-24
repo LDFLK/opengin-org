@@ -10,6 +10,17 @@ import (
 	"github.com/google/uuid"
 )
 
+// filterByExactName returns only the results whose Name exactly matches name.
+func filterByExactName(results []models.SearchResult, name string) []models.SearchResult {
+	var exact []models.SearchResult
+	for _, r := range results {
+		if r.Name == name {
+			exact = append(exact, r)
+		}
+	}
+	return exact
+}
+
 // CreateGovernmentNode creates the initial government node
 func (c *Client) CreateGovernmentNode() (*models.Entity, error) {
 	// Create the government entity
@@ -49,8 +60,16 @@ func (c *Client) GetPresidentByGovernment(presidentName string) (*models.Entity,
 	if err != nil {
 		return nil, fmt.Errorf("failed to search for president entity: %w", err)
 	}
+
+	// Filter for exact name match
+	presidentResults = filterByExactName(presidentResults, presidentName)
+
 	if len(presidentResults) == 0 {
 		return nil, fmt.Errorf("president entity not found: %s", presidentName)
+	}
+
+	if len(presidentResults) > 1 {
+		return nil, fmt.Errorf("multiple entities found with name '%s'", presidentName)
 	}
 
 	// Find the president by checking if they have AS_PRESIDENT relationship to government
@@ -319,8 +338,14 @@ func (c *Client) AddOrgEntity(transaction map[string]interface{}, entityCounters
 			return 0, fmt.Errorf("failed to search for parent entity: %w", err)
 		}
 
+		// Filter for exact name match
+		searchResults = filterByExactName(searchResults, parent)
+
 		if len(searchResults) == 0 {
 			return 0, fmt.Errorf("parent entity not found: %s", parent)
+		}
+		if len(searchResults) > 1 {
+			return 0, fmt.Errorf("multiple parent entities found with name '%s'", parent)
 		}
 
 		parentID = searchResults[0].ID
@@ -445,8 +470,13 @@ func (c *Client) TerminateOrgEntity(transaction map[string]interface{}) error {
 		if err != nil {
 			return fmt.Errorf("failed to search for parent entity: %w", err)
 		}
+		// Filter for exact name match
+		parentResults = filterByExactName(parentResults, parent)
 		if len(parentResults) == 0 {
 			return fmt.Errorf("parent entity not found: %s", parent)
+		}
+		if len(parentResults) > 1 {
+			return fmt.Errorf("multiple parent entities found with name '%s'", parent)
 		}
 		parentID = parentResults[0].ID
 	}
