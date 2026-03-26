@@ -14,7 +14,7 @@ import (
 // isMinisterType returns true for any minister subtype value.
 func isMinisterType(t string) bool {
 	switch t {
-	case "minister", "cabinetMinister", "stateMinister":
+	case "cabinetMinister", "stateMinister":
 		return true
 	}
 	return false
@@ -22,7 +22,8 @@ func isMinisterType(t string) bool {
 
 // ministerTypeFromName derives the correct minister subtype from the minister's name.
 func ministerTypeFromName(name string) string {
-	if strings.HasPrefix(name, "State Minister") || strings.HasPrefix(name, "Non Cabinet Minister") {
+	lowerName := strings.ToLower(name)
+	if strings.HasPrefix(lowerName, "state minister") || strings.HasPrefix(lowerName, "non cabinet minister") {
 		return "stateMinister"
 	}
 	return "cabinetMinister"
