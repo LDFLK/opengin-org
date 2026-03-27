@@ -1,30 +1,30 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2151-38_tr_01,Minister of Defence,minister,Gotabaya Rajapaksa,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_02,"Minister of Finance, Economic and Policy Development",minister,Mahinda Rajapaksa,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_03,"Minister of Buddhasasana, Cultural and Religious Affairs",minister,Mahinda Rajapaksa,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_04,"Minister of Urban Development, Water Supply and Housing Facilities",minister,Mahinda Rajapaksa,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_05,"Minister of Justice, Human Rights & Law Reforms",minister,Nimal Siripala De Silva,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_06,Minister of Community Empowerment and Estate Infrastructure Development,minister,Arumugan Thondaman,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_07,Minister of Foreign Relations,minister,Dinesh Chandra Rupasingha Gunawardena,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_08,"Minister of Skills Development, Employment and Labour Relations",minister,Dinesh Chandra Rupasingha Gunawardena,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_09,Minister of Fisheries & Aquatic Resources,minister,Douglas Thevaanantha,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_10,Minister of Women & Child Affairs and Social Security,minister,Pavithra Devi Vanniarachchi,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_11,Minister of Healthcare and Indigenous Medical Services,minister,Pavithra Devi Vanniarachchi,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_12,Minister of Information and Communication Technology,minister,Bandula Gunawardana,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_13,"Minister of Higher Education, Technology and Innovation",minister,Bandula Gunawardana,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_14,"Minister of Public Administration, Home Affairs, Provincial Councils & Local Government",minister,Janaka Bandara Thennakoon,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_15,"Minister of Mahaweli, Agriculture, Irrigation and Rural Development",minister,Chamal Rajapaksa,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_16,"Minister of Internal Trade, Food Security and Consumer Welfare",minister,Chamal Rajapaksa,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_17,Minister of Education,minister,Dullas Alahapperuma,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_18,Minister of Sports and Youth Affairs,minister,Dullas Alahapperuma,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_19,Minister of Roads and Highways,minister,Johnston Fernando,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_20,Minister of Ports and Shipping,minister,Johnston Fernando,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_21,Minister of Small & Medium Business and Enterprise Development,minister,Wimal Weerawansa,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_22,Minister of Industries and Supply Chain Management,minister,Wimal Weerawansa,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_23,Minister of Transport Services Management,minister,Mahinda Amaraweera,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_24,Minister of Power & Energy,minister,Mahinda Amaraweera,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_25,Minister of Environment and Wildlife Resources,minister,S. M. Chandrasena,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_26,Minister of Lands & Land Development,minister,S. M. Chandrasena,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_27,Minister of Plantation Industries and Export Agriculture,minister,Ramesh Pathirana,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_28,Minister of Industrial Export and Investment Promotion,minister,Prasanna Ranatunga,citizen,AS_APPOINTED,2019-11-27
-2151-38_tr_29,Minister of Tourism and Civil Aviation,minister,Prasanna Ranatunga,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_01,Minister of Defence,cabinetMinister,Gotabaya Rajapaksa,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_02,"Minister of Finance, Economic and Policy Development",cabinetMinister,Mahinda Rajapaksa,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_03,"Minister of Buddhasasana, Cultural and Religious Affairs",cabinetMinister,Mahinda Rajapaksa,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_04,"Minister of Urban Development, Water Supply and Housing Facilities",cabinetMinister,Mahinda Rajapaksa,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_05,"Minister of Justice, Human Rights & Law Reforms",cabinetMinister,Nimal Siripala De Silva,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_06,Minister of Community Empowerment and Estate Infrastructure Development,cabinetMinister,Arumugan Thondaman,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_07,Minister of Foreign Relations,cabinetMinister,Dinesh Chandra Rupasingha Gunawardena,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_08,"Minister of Skills Development, Employment and Labour Relations",cabinetMinister,Dinesh Chandra Rupasingha Gunawardena,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_09,Minister of Fisheries & Aquatic Resources,cabinetMinister,Douglas Thevaanantha,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_10,Minister of Women & Child Affairs and Social Security,cabinetMinister,Pavithra Devi Vanniarachchi,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_11,Minister of Healthcare and Indigenous Medical Services,cabinetMinister,Pavithra Devi Vanniarachchi,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_12,Minister of Information and Communication Technology,cabinetMinister,Bandula Gunawardana,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_13,"Minister of Higher Education, Technology and Innovation",cabinetMinister,Bandula Gunawardana,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_14,"Minister of Public Administration, Home Affairs, Provincial Councils & Local Government",cabinetMinister,Janaka Bandara Thennakoon,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_15,"Minister of Mahaweli, Agriculture, Irrigation and Rural Development",cabinetMinister,Chamal Rajapaksa,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_16,"Minister of Internal Trade, Food Security and Consumer Welfare",cabinetMinister,Chamal Rajapaksa,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_17,Minister of Education,cabinetMinister,Dullas Alahapperuma,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_18,Minister of Sports and Youth Affairs,cabinetMinister,Dullas Alahapperuma,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_19,Minister of Roads and Highways,cabinetMinister,Johnston Fernando,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_20,Minister of Ports and Shipping,cabinetMinister,Johnston Fernando,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_21,Minister of Small & Medium Business and Enterprise Development,cabinetMinister,Wimal Weerawansa,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_22,Minister of Industries and Supply Chain Management,cabinetMinister,Wimal Weerawansa,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_23,Minister of Transport Services Management,cabinetMinister,Mahinda Amaraweera,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_24,Minister of Power & Energy,cabinetMinister,Mahinda Amaraweera,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_25,Minister of Environment and Wildlife Resources,cabinetMinister,S. M. Chandrasena,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_26,Minister of Lands & Land Development,cabinetMinister,S. M. Chandrasena,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_27,Minister of Plantation Industries and Export Agriculture,cabinetMinister,Ramesh Pathirana,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_28,Minister of Industrial Export and Investment Promotion,cabinetMinister,Prasanna Ranatunga,citizen,AS_APPOINTED,2019-11-27
+2151-38_tr_29,Minister of Tourism and Civil Aviation,cabinetMinister,Prasanna Ranatunga,citizen,AS_APPOINTED,2019-11-27

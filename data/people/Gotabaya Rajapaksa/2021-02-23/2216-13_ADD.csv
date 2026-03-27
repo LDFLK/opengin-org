@@ -1,2 +1,2 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2216-13_tr_02,State Minister of Home Affairs,minister,Chamal Rajapaksa,citizen,AS_APPOINTED,2021-02-23
+2216-13_tr_02,State Minister of Home Affairs,stateMinister,Chamal Rajapaksa,citizen,AS_APPOINTED,2021-02-23

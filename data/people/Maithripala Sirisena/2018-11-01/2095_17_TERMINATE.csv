@@ -1,7 +1,7 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-1932/69_tr_01,Minister of Irrigation and Water Resources Management,minister,Gamini Vijith Vijayamuni Zoysa,person,AS_APPOINTED,2015-09-18
-2067/09_tr_19,Minister of Disaster Management,minister,Ranjith Siyambalapitiya,person,AS_APPOINTED,2018-04-19
-2067/09_tr_19,Minister of Skills Development & Vocational Training,minister,Sarath Amunugama,person,AS_APPOINTED,2018-04-19
+1932/69_tr_01,Minister of Irrigation and Water Resources Management,cabinetMinister,Gamini Vijith Vijayamuni Zoysa,person,AS_APPOINTED,2015-09-18
+2067/09_tr_19,Minister of Disaster Management,cabinetMinister,Ranjith Siyambalapitiya,person,AS_APPOINTED,2018-04-19
+2067/09_tr_19,Minister of Skills Development & Vocational Training,cabinetMinister,Sarath Amunugama,person,AS_APPOINTED,2018-04-19
 1932/69_tr_16,State Minister of Child Affairs,state_minister,Maheswaran Wijayakala,person,AS_APPOINTED,2015-09-18
 1897/16_tr_36,State Minister of Defence,state_minister,Dinedra Ruwan Wijewardana,person,AS_APPOINTED,2015-01-18
 1932/69_tr_04,State Minister of Highways,state_minister,Dilan Perera,person,AS_APPOINTED,2015-09-18

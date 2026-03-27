@@ -1,4 +1,4 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2355-08_tr_05,Non Cabinet Minister of State Plantation Enterprises Reforms,minister,Ranjith Siyambalapitiya,citizen,AS_APPOINTED,2023-10-23
-2355-08_tr_03,Minister of Agriculture and Plantation Industries,minister,Mahinda Amaraweera,citizen,AS_APPOINTED,2023-10-23
-2355-08_tr_04,Minister of Health,minister,Ramesh Pathirana,citizen,AS_APPOINTED,2023-10-23
+2355-08_tr_05,Non Cabinet Minister of State Plantation Enterprises Reforms,stateMinister,Ranjith Siyambalapitiya,citizen,AS_APPOINTED,2023-10-23
+2355-08_tr_03,Minister of Agriculture and Plantation Industries,cabinetMinister,Mahinda Amaraweera,citizen,AS_APPOINTED,2023-10-23
+2355-08_tr_04,Minister of Health,cabinetMinister,Ramesh Pathirana,citizen,AS_APPOINTED,2023-10-23

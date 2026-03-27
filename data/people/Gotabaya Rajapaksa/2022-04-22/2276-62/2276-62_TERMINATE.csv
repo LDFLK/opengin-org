@@ -1,23 +1,23 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2276-62_tr_01,"State Minister of Coconut, Kithul and Palmyrah Cultivation Promotion and Related Industrial Product Manufacturing and Export Diversification",minister,Arundika Fernando,citizen,AS_APPOINTED,2022-04-22
-2276-62_tr_02,"State Minister of Company Estate Reforms, Tea and Rubber Estates Related Crops Cultivation and Factories Modernization and Tea and Rubber Export Promotion",minister,Kanaka Herath,citizen,AS_APPOINTED,2022-04-22
-2276-62_tr_03,"State Minister of National Heritage, Performing Arts and Rural Arts Promotion",minister,Vidura Wickramanayaka,citizen,AS_APPOINTED,2022-04-22
-2276-62_tr_05,"State Minister of Dhamma Schools, Pirivenas and Bhikkhu Education",minister,Vijitha Berugoda,citizen,AS_APPOINTED,2022-04-22
-2276-62_tr_06,"State Minister of Samurdhi, Household Economy, Micro Finance, Self Employment and Business Development",minister,Shehan Semasinghe,citizen,AS_APPOINTED,2022-04-22
-2276-62_tr_07,State Minister of Coast Conservation & Low-Lying Lands Development,minister,Mohan Priyadarshana De Silva,citizen,AS_APPOINTED,2022-04-22
-2276-62_tr_08,"State Minister of Warehouse Facilities, Container Yards, Port Supply Facilities and Boats and Shipping Industry Development",minister,Lohan Ratwatte,citizen,AS_APPOINTED,2022-04-22
-2276-62_tr_09,State Minister of Disaster Management,minister,Wimalaweera Dissanayaka,citizen,AS_APPOINTED,2022-04-22
-2276-62_tr_10,State Minister of Regional Cooperation,minister,Tharaka Balasuriya,citizen,AS_APPOINTED,2022-04-22
-2276-62_tr_11,"State Minister of Rural Housing, Construction and Building Material Industries",minister,Indika Anuruddha,citizen,AS_APPOINTED,2022-04-22
-2276-62_tr_12,"State Minister of Ornamental Fish, Inland Fish and Prawn Farming, Fishery Harbour Development, Multiday Fishing Activities and Fish Exports",minister,Kanchana Wijesekera,citizen,AS_APPOINTED,2022-04-22
-2276-62_tr_13,State Minister of Rural and Divisional Drinking Water Supply Projects Development,minister,Sanath Nishantha,citizen,AS_APPOINTED,2022-04-22
-2276-62_tr_14,State Minister of Canals and Common Infrastructure Development in Settlements in Mahaweli Zones,minister,Siripala Gamlath,citizen,AS_APPOINTED,2022-04-22
-2276-62_tr_15,"State Minister of Tanks, Reservoirs and Irrigation Development Related to Rural Paddy Fields",minister,Anuradha Jayaratne,citizen,AS_APPOINTED,2022-04-22
-2276-62_tr_16,State Minister of Backward Rural Areas Development and Promotion of Domestic Animal Husbandry and Minor Economic Crop Cultivation,minister,Sathasivam Viyalendiran,citizen,AS_APPOINTED,2022-04-22
-2276-62_tr_18,"State Minister of Indigenous Medicine Promotion, Rural and Ayurvedic Hospitals Development and Community Health",minister,Sisira Jayakody,citizen,AS_APPOINTED,2022-04-22
-2276-62_tr_19,"State Minister of Rattan, Brass, Pottery, Furniture and Rural Industrial Promotion",minister,Prasanna Ranaweera,citizen,AS_APPOINTED,2022-04-22
-2276-62_tr_20,State Minister of Aviation and Export Zones Development,minister,D. V. Chanaka,citizen,AS_APPOINTED,2022-04-22
-2276-62_tr_21,"State Minister of Livestock, Farm Promotion and Dairy and Egg Related Industries",minister,D. B. Herath,citizen,AS_APPOINTED,2022-04-22
-2276-62_tr_22,"State Minister of Urban Development, Waste Disposal and Community Cleanliness",minister,Nalaka Godahewa,citizen,AS_APPOINTED,2022-04-22
-2276-62_tr_23,"State Minister of Skills Development, Vocational Education, Research and Innovation",minister,Seetha Arambepola,citizen,AS_APPOINTED,2022-04-22
-2276-62_tr_24,"State Minister of Production, Supply and Regulation of Pharmaceuticals",minister,Channa Jayasumana,citizen,AS_APPOINTED,2022-04-22
+2276-62_tr_01,"State Minister of Coconut, Kithul and Palmyrah Cultivation Promotion and Related Industrial Product Manufacturing and Export Diversification",stateMinister,Arundika Fernando,citizen,AS_APPOINTED,2022-04-22
+2276-62_tr_02,"State Minister of Company Estate Reforms, Tea and Rubber Estates Related Crops Cultivation and Factories Modernization and Tea and Rubber Export Promotion",stateMinister,Kanaka Herath,citizen,AS_APPOINTED,2022-04-22
+2276-62_tr_03,"State Minister of National Heritage, Performing Arts and Rural Arts Promotion",stateMinister,Vidura Wickramanayaka,citizen,AS_APPOINTED,2022-04-22
+2276-62_tr_05,"State Minister of Dhamma Schools, Pirivenas and Bhikkhu Education",stateMinister,Vijitha Berugoda,citizen,AS_APPOINTED,2022-04-22
+2276-62_tr_06,"State Minister of Samurdhi, Household Economy, Micro Finance, Self Employment and Business Development",stateMinister,Shehan Semasinghe,citizen,AS_APPOINTED,2022-04-22
+2276-62_tr_07,State Minister of Coast Conservation & Low-Lying Lands Development,stateMinister,Mohan Priyadarshana De Silva,citizen,AS_APPOINTED,2022-04-22
+2276-62_tr_08,"State Minister of Warehouse Facilities, Container Yards, Port Supply Facilities and Boats and Shipping Industry Development",stateMinister,Lohan Ratwatte,citizen,AS_APPOINTED,2022-04-22
+2276-62_tr_09,State Minister of Disaster Management,stateMinister,Wimalaweera Dissanayaka,citizen,AS_APPOINTED,2022-04-22
+2276-62_tr_10,State Minister of Regional Cooperation,stateMinister,Tharaka Balasuriya,citizen,AS_APPOINTED,2022-04-22
+2276-62_tr_11,"State Minister of Rural Housing, Construction and Building Material Industries",stateMinister,Indika Anuruddha,citizen,AS_APPOINTED,2022-04-22
+2276-62_tr_12,"State Minister of Ornamental Fish, Inland Fish and Prawn Farming, Fishery Harbour Development, Multiday Fishing Activities and Fish Exports",stateMinister,Kanchana Wijesekera,citizen,AS_APPOINTED,2022-04-22
+2276-62_tr_13,State Minister of Rural and Divisional Drinking Water Supply Projects Development,stateMinister,Sanath Nishantha,citizen,AS_APPOINTED,2022-04-22
+2276-62_tr_14,State Minister of Canals and Common Infrastructure Development in Settlements in Mahaweli Zones,stateMinister,Siripala Gamlath,citizen,AS_APPOINTED,2022-04-22
+2276-62_tr_15,"State Minister of Tanks, Reservoirs and Irrigation Development Related to Rural Paddy Fields",stateMinister,Anuradha Jayaratne,citizen,AS_APPOINTED,2022-04-22
+2276-62_tr_16,State Minister of Backward Rural Areas Development and Promotion of Domestic Animal Husbandry and Minor Economic Crop Cultivation,stateMinister,Sathasivam Viyalendiran,citizen,AS_APPOINTED,2022-04-22
+2276-62_tr_18,"State Minister of Indigenous Medicine Promotion, Rural and Ayurvedic Hospitals Development and Community Health",stateMinister,Sisira Jayakody,citizen,AS_APPOINTED,2022-04-22
+2276-62_tr_19,"State Minister of Rattan, Brass, Pottery, Furniture and Rural Industrial Promotion",stateMinister,Prasanna Ranaweera,citizen,AS_APPOINTED,2022-04-22
+2276-62_tr_20,State Minister of Aviation and Export Zones Development,stateMinister,D. V. Chanaka,citizen,AS_APPOINTED,2022-04-22
+2276-62_tr_21,"State Minister of Livestock, Farm Promotion and Dairy and Egg Related Industries",stateMinister,D. B. Herath,citizen,AS_APPOINTED,2022-04-22
+2276-62_tr_22,"State Minister of Urban Development, Waste Disposal and Community Cleanliness",stateMinister,Nalaka Godahewa,citizen,AS_APPOINTED,2022-04-22
+2276-62_tr_23,"State Minister of Skills Development, Vocational Education, Research and Innovation",stateMinister,Seetha Arambepola,citizen,AS_APPOINTED,2022-04-22
+2276-62_tr_24,"State Minister of Production, Supply and Regulation of Pharmaceuticals",stateMinister,Channa Jayasumana,citizen,AS_APPOINTED,2022-04-22

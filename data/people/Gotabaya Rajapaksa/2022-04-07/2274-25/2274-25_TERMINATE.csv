@@ -1,25 +1,25 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2274-25_tr_01,Minister of Labour,minister,Nimal Siripala De Silva,citizen,AS_APPOINTED,2022-04-07
-2274-25_tr_02,Minister of Industries,minister,S.B. Dissanayaka,citizen,AS_APPOINTED,2022-04-07
-2274-25_tr_03,Minister of Power,minister,Pavithra Devi Vanniarachchi,citizen,AS_APPOINTED,2022-04-07
-2274-25_tr_04,Minister of Fisheries,minister,Douglas Devananda,citizen,AS_APPOINTED,2022-04-07
-2274-25_tr_05,Minister of Energy,minister,Gamini Lokuge,citizen,AS_APPOINTED,2022-04-07
-2274-25_tr_06,Minister of Trade,minister,Bandula Gunawardena,citizen,AS_APPOINTED,2022-04-07
-2274-25_tr_07,Minister of Wildlife and Forest Resources Conservation,minister,R. M. C. B. Rathnayake,citizen,AS_APPOINTED,2022-04-07
-2274-25_tr_08,"Minister of Public Services, Provincial Councils and Local Government",minister,Janaka Bandara Thennakoon,citizen,AS_APPOINTED,2022-04-07
-2274-25_tr_09,Minister of Health,minister,Keheliya Rambukwella,citizen,AS_APPOINTED,2022-04-07
-2274-25_tr_10,Minister of Irrigation,minister,Chamal Rajapaksa,citizen,AS_APPOINTED,2022-04-07
-2274-25_tr_11,Minister of Mass Media,minister,Dullas Alahapperuma,citizen,AS_APPOINTED,2022-04-07
-2274-25_tr_12,Minister of Finance,minister,Basil Rajapaksa,citizen,AS_APPOINTED,2022-04-07
-2274-25_tr_13,Minister of Environment,minister,Mahinda Amaraweera,citizen,AS_APPOINTED,2022-04-07
-2274-25_tr_14,Minister of Lands,minister,S. M. Chandrasena,citizen,AS_APPOINTED,2022-04-07
-2274-25_tr_15,Minister of Agriculture,minister,Mahindananda Aluthgamage,citizen,AS_APPOINTED,2022-04-07
-2274-25_tr_16,Minister of Water Supply,minister,Vasudeva Nanayakkara,citizen,AS_APPOINTED,2022-04-07
-2274-25_tr_17,Minister of Plantation,minister,Ramesh Pathirana,citizen,AS_APPOINTED,2022-04-07
-2274-25_tr_18,Minister of Tourism,minister,Prasanna Ranatunga,citizen,AS_APPOINTED,2022-04-07
-2274-25_tr_19,Minister of Ports and Shipping,minister,Rohitha Abegunawardhana,citizen,AS_APPOINTED,2022-04-07
-2274-25_tr_20,Minister of Youth and Sports,minister,Namal Rajapaksa,citizen,AS_APPOINTED,2022-04-07
-2274-25_tr_21,Minister of Development Co-ordination and Monitoring,minister,Namal Rajapaksa,citizen,AS_APPOINTED,2022-04-07
-2274-25_tr_22,Minister of Justice,minister,Ali Sabry,citizen,AS_APPOINTED,2022-04-07
-2274-25_tr_23,Minister of Public Security,minister,Sarath Weerasekara,citizen,AS_APPOINTED,2022-04-07
-2274-25_tr_24,Minister of Transport,minister,Dilum Amunugama,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_01,Minister of Labour,cabinetMinister,Nimal Siripala De Silva,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_02,Minister of Industries,cabinetMinister,S.B. Dissanayaka,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_03,Minister of Power,cabinetMinister,Pavithra Devi Vanniarachchi,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_04,Minister of Fisheries,cabinetMinister,Douglas Devananda,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_05,Minister of Energy,cabinetMinister,Gamini Lokuge,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_06,Minister of Trade,cabinetMinister,Bandula Gunawardena,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_07,Minister of Wildlife and Forest Resources Conservation,cabinetMinister,R. M. C. B. Rathnayake,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_08,"Minister of Public Services, Provincial Councils and Local Government",cabinetMinister,Janaka Bandara Thennakoon,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_09,Minister of Health,cabinetMinister,Keheliya Rambukwella,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_10,Minister of Irrigation,cabinetMinister,Chamal Rajapaksa,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_11,Minister of Mass Media,cabinetMinister,Dullas Alahapperuma,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_12,Minister of Finance,cabinetMinister,Basil Rajapaksa,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_13,Minister of Environment,cabinetMinister,Mahinda Amaraweera,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_14,Minister of Lands,cabinetMinister,S. M. Chandrasena,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_15,Minister of Agriculture,cabinetMinister,Mahindananda Aluthgamage,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_16,Minister of Water Supply,cabinetMinister,Vasudeva Nanayakkara,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_17,Minister of Plantation,cabinetMinister,Ramesh Pathirana,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_18,Minister of Tourism,cabinetMinister,Prasanna Ranatunga,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_19,Minister of Ports and Shipping,cabinetMinister,Rohitha Abegunawardhana,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_20,Minister of Youth and Sports,cabinetMinister,Namal Rajapaksa,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_21,Minister of Development Co-ordination and Monitoring,cabinetMinister,Namal Rajapaksa,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_22,Minister of Justice,cabinetMinister,Ali Sabry,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_23,Minister of Public Security,cabinetMinister,Sarath Weerasekara,citizen,AS_APPOINTED,2022-04-07
+2274-25_tr_24,Minister of Transport,cabinetMinister,Dilum Amunugama,citizen,AS_APPOINTED,2022-04-07

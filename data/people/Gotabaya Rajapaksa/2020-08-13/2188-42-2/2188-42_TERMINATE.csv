@@ -1,10 +1,10 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2188-42_tr_19,Minister of Agriculture,minister,Chamal Rajapaksa,citizen,AS_APPOINTED,2020-08-13
-2188-42_tr_09,Minister of Trade,minister,Chamal Rajapaksa,citizen,AS_APPOINTED,2020-08-13
-2188-42_tr_04,Minister of Education,minister,Dullas Alahapperuma,citizen,AS_APPOINTED,2020-08-13
-2188-42_tr_25,Minister of Youth and Sports,minister,Dullas Alahapperuma,citizen,AS_APPOINTED,2020-08-13
-2188-42_tr_24,Minister of Ports and Shipping,minister,Johnston Fernando,citizen,AS_APPOINTED,2020-08-13
-2188-42_tr_14,Minister of Power,minister,Mahinda Amaraweera,citizen,AS_APPOINTED,2020-08-13
-2188-42_tr_17,Minister of Environment,minister,S. M. Chandrasena,citizen,AS_APPOINTED,2020-08-13
-2188-42_tr_26,Minister of Justice,minister,Nimal Siripala De Silva,citizen,AS_APPOINTED,2020-08-13
-2188-42_tr_07,Minister of Fisheries,minister,Douglas Thevaanantha,citizen,AS_APPOINTED,2020-08-13
+2188-42_tr_19,Minister of Agriculture,cabinetMinister,Chamal Rajapaksa,citizen,AS_APPOINTED,2020-08-13
+2188-42_tr_09,Minister of Trade,cabinetMinister,Chamal Rajapaksa,citizen,AS_APPOINTED,2020-08-13
+2188-42_tr_04,Minister of Education,cabinetMinister,Dullas Alahapperuma,citizen,AS_APPOINTED,2020-08-13
+2188-42_tr_25,Minister of Youth and Sports,cabinetMinister,Dullas Alahapperuma,citizen,AS_APPOINTED,2020-08-13
+2188-42_tr_24,Minister of Ports and Shipping,cabinetMinister,Johnston Fernando,citizen,AS_APPOINTED,2020-08-13
+2188-42_tr_14,Minister of Power,cabinetMinister,Mahinda Amaraweera,citizen,AS_APPOINTED,2020-08-13
+2188-42_tr_17,Minister of Environment,cabinetMinister,S. M. Chandrasena,citizen,AS_APPOINTED,2020-08-13
+2188-42_tr_26,Minister of Justice,cabinetMinister,Nimal Siripala De Silva,citizen,AS_APPOINTED,2020-08-13
+2188-42_tr_07,Minister of Fisheries,cabinetMinister,Douglas Thevaanantha,citizen,AS_APPOINTED,2020-08-13

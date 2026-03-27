@@ -1,10 +1,10 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2281-31_tr_10,Minister of Transport,minister,Bandula Gunawardena,citizen,AS_APPOINTED,2022-05-26
-2281-31_tr_11,Minister of Mass Media,minister,Bandula Gunawardena,citizen,AS_APPOINTED,2022-05-26
-2281-31_tr_12,Minister of Water Supply,minister,Keheliya Rambukwella,citizen,AS_APPOINTED,2022-05-26
-2281-31_tr_13,Minister of Agriculture,minister,Mahinda Amaraweera,citizen,AS_APPOINTED,2022-05-26
-2281-31_tr_14,Minister of Wildlife and Forest Resources Conservation,minister,Mahinda Amaraweera,citizen,AS_APPOINTED,2022-05-26
-2281-31_tr_15,Minister of Industries,minister,Ramesh Pathirana,citizen,AS_APPOINTED,2022-05-26
-2281-31_tr_16,"Minister of Buddha Sasana, Religious and Cultural Affairs",minister,Vidura Wickramanayaka,citizen,AS_APPOINTED,2022-05-26
-2281-31_tr_17,Minister of Irrigation,minister,Anuruddha Ranasinghe Arachchige Roshan,citizen,AS_APPOINTED,2022-05-26
-2281-31_tr_18,Minister of Youth and Sports,minister,Anuruddha Ranasinghe Arachchige Roshan,citizen,AS_APPOINTED,2022-05-26
+2281-31_tr_10,Minister of Transport,cabinetMinister,Bandula Gunawardena,citizen,AS_APPOINTED,2022-05-26
+2281-31_tr_11,Minister of Mass Media,cabinetMinister,Bandula Gunawardena,citizen,AS_APPOINTED,2022-05-26
+2281-31_tr_12,Minister of Water Supply,cabinetMinister,Keheliya Rambukwella,citizen,AS_APPOINTED,2022-05-26
+2281-31_tr_13,Minister of Agriculture,cabinetMinister,Mahinda Amaraweera,citizen,AS_APPOINTED,2022-05-26
+2281-31_tr_14,Minister of Wildlife and Forest Resources Conservation,cabinetMinister,Mahinda Amaraweera,citizen,AS_APPOINTED,2022-05-26
+2281-31_tr_15,Minister of Industries,cabinetMinister,Ramesh Pathirana,citizen,AS_APPOINTED,2022-05-26
+2281-31_tr_16,"Minister of Buddha Sasana, Religious and Cultural Affairs",cabinetMinister,Vidura Wickramanayaka,citizen,AS_APPOINTED,2022-05-26
+2281-31_tr_17,Minister of Irrigation,cabinetMinister,Anuruddha Ranasinghe Arachchige Roshan,citizen,AS_APPOINTED,2022-05-26
+2281-31_tr_18,Minister of Youth and Sports,cabinetMinister,Anuruddha Ranasinghe Arachchige Roshan,citizen,AS_APPOINTED,2022-05-26

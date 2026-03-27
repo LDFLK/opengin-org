@@ -1,2 +1,2 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2180-30_tr_02,Minister of Community Empowerment and Estate Infrastructure Development,minister,Mahinda Rajapaksa,citizen,AS_APPOINTED,2020-06-18
+2180-30_tr_02,Minister of Community Empowerment and Estate Infrastructure Development,cabinetMinister,Mahinda Rajapaksa,citizen,AS_APPOINTED,2020-06-18

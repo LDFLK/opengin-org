@@ -1,20 +1,20 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2411-10_tr_02,"Minister of Agriculture, Livestock, Land and Irrigation",minister,Kuragamage Don Lal Kantha,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_04,"Minister of Fisheries, Aquatic and Ocean Resources",minister,Ramalingam Chandrasekar,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_05,Minister of Industry and Entrepreneurship Development,minister,Sunil Handunneththi,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_06,"Minister of Transport, Highways, Ports and Civil Aviation",minister,Bimal Niroshan Rathnayaka,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_07,Minister of Plantation and Community Infrastructure,minister,Samantha Vidyarathna,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_08,Minister of Health and Mass Media,minister,Appuhamilage Nalinda Jayathissa,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_09,"Minister of Trade, Commerce, Food Security and Cooperative Development",minister,Herath Mudiyanselage Wasantha Samarasingha,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_10,Minister of Labour,minister,Anthonige Anil Jayantha Fernando,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_11,"Minister of Urban Development, Construction and Housing",minister,Anura Karunathilaka,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_12,"Minister of Public Administration, Provincial Councils and Local Government",minister,Abayarathna Herath Mudiyanselage Harischandra Abayarathna,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_13,"Minister of Rural Development, Social Security and Community Empowerment",minister,Upali Pannilage,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_14,Minister of Science and Technology,minister,H T Krishantha Silva Abeysena,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_15,Minister of Public Security and Parliamentary Affairs,minister,K M Ananda Wijepala,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_16,Minister of Energy,minister,Punya Sri Kumara Jayakodi,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_17,Minister of Youth Affairs and Sports,minister,Sunil Kumara Gamage,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_18,Minister of Women and Child Affairs,minister,Saroja Savithri Paulraj,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_19,Minister of Environment,minister,Hettithanthri Patabendige Dammika,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_20,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,Hiniduma Sunil Senevi,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_21,Minister of Justice and National Integration,minister,Harshana Nanayakkara,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_02,"Minister of Agriculture, Livestock, Land and Irrigation",cabinetMinister,Kuragamage Don Lal Kantha,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_04,"Minister of Fisheries, Aquatic and Ocean Resources",cabinetMinister,Ramalingam Chandrasekar,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_05,Minister of Industry and Entrepreneurship Development,cabinetMinister,Sunil Handunneththi,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_06,"Minister of Transport, Highways, Ports and Civil Aviation",cabinetMinister,Bimal Niroshan Rathnayaka,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_07,Minister of Plantation and Community Infrastructure,cabinetMinister,Samantha Vidyarathna,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_08,Minister of Health and Mass Media,cabinetMinister,Appuhamilage Nalinda Jayathissa,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_09,"Minister of Trade, Commerce, Food Security and Cooperative Development",cabinetMinister,Herath Mudiyanselage Wasantha Samarasingha,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_10,Minister of Labour,cabinetMinister,Anthonige Anil Jayantha Fernando,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_11,"Minister of Urban Development, Construction and Housing",cabinetMinister,Anura Karunathilaka,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_12,"Minister of Public Administration, Provincial Councils and Local Government",cabinetMinister,Abayarathna Herath Mudiyanselage Harischandra Abayarathna,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_13,"Minister of Rural Development, Social Security and Community Empowerment",cabinetMinister,Upali Pannilage,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_14,Minister of Science and Technology,cabinetMinister,H T Krishantha Silva Abeysena,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_15,Minister of Public Security and Parliamentary Affairs,cabinetMinister,K M Ananda Wijepala,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_16,Minister of Energy,cabinetMinister,Punya Sri Kumara Jayakodi,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_17,Minister of Youth Affairs and Sports,cabinetMinister,Sunil Kumara Gamage,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_18,Minister of Women and Child Affairs,cabinetMinister,Saroja Savithri Paulraj,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_19,Minister of Environment,cabinetMinister,Hettithanthri Patabendige Dammika,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_20,"Minister of Buddhasasana, Religious and Cultural Affairs",cabinetMinister,Hiniduma Sunil Senevi,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_21,Minister of Justice and National Integration,cabinetMinister,Harshana Nanayakkara,citizen,AS_APPOINTED,2024-11-18

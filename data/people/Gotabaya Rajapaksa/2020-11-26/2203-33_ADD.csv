@@ -1,2 +1,2 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2203-33_tr_02,Minister of Technology,minister,Gotabaya Rajapaksa,citizen,AS_APPOINTED,2020-11-26
+2203-33_tr_02,Minister of Technology,cabinetMinister,Gotabaya Rajapaksa,citizen,AS_APPOINTED,2020-11-26

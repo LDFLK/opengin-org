@@ -1,2 +1,2 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2355-08_tr_01,Minister of Environment,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2023-10-23
+2355-08_tr_01,Minister of Environment,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2023-10-23

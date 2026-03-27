@@ -1,5 +1,5 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2304-58_tr_01,"Minister of Finance, Economic Stabilization and National Policies",minister,Dinesh Chandra Rupasingha Gunawardena,citizen,AS_APPOINTED,2022-11-04
-2304-58_tr_02,Minister of Technology,minister,Dinesh Chandra Rupasingha Gunawardena,citizen,AS_APPOINTED,2022-11-04
-2304-58_tr_03,"Minister of Women, Child Affairs and Social Empowerment",minister,Dinesh Chandra Rupasingha Gunawardena,citizen,AS_APPOINTED,2022-11-04
-2304-58_tr_04,Minister of Investment Promotion,minister,Dinesh Chandra Rupasingha Gunawardena,citizen,AS_APPOINTED,2022-11-04
+2304-58_tr_01,"Minister of Finance, Economic Stabilization and National Policies",cabinetMinister,Dinesh Chandra Rupasingha Gunawardena,citizen,AS_APPOINTED,2022-11-04
+2304-58_tr_02,Minister of Technology,cabinetMinister,Dinesh Chandra Rupasingha Gunawardena,citizen,AS_APPOINTED,2022-11-04
+2304-58_tr_03,"Minister of Women, Child Affairs and Social Empowerment",cabinetMinister,Dinesh Chandra Rupasingha Gunawardena,citizen,AS_APPOINTED,2022-11-04
+2304-58_tr_04,Minister of Investment Promotion,cabinetMinister,Dinesh Chandra Rupasingha Gunawardena,citizen,AS_APPOINTED,2022-11-04

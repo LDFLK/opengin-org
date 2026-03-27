@@ -1,3 +1,3 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2315-34_tr_01,Minister of Water Supply and Estate Infrastructure Development,minister,Keheliya Rambukwella,citizen,AS_APPOINTED,2023-01-19
-2315-34_tr_02,Minister of Wildlife and Forest Resources Conservation,minister,Mahinda Amaraweera,citizen,AS_APPOINTED,2023-01-19
+2315-34_tr_01,Minister of Water Supply and Estate Infrastructure Development,cabinetMinister,Keheliya Rambukwella,citizen,AS_APPOINTED,2023-01-19
+2315-34_tr_02,Minister of Wildlife and Forest Resources Conservation,cabinetMinister,Mahinda Amaraweera,citizen,AS_APPOINTED,2023-01-19

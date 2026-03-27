@@ -1,3 +1,3 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2270-05_tr_01,Minister of Industries,minister,Wimal Weerawansa,citizen,AS_APPOINTED,2022-03-07
-2270-05_tr_02,Minister of Energy,minister,Udaya Prabath Gammanpila,citizen,AS_APPOINTED,2022-03-07
+2270-05_tr_01,Minister of Industries,cabinetMinister,Wimal Weerawansa,citizen,AS_APPOINTED,2022-03-07
+2270-05_tr_02,Minister of Energy,cabinetMinister,Udaya Prabath Gammanpila,citizen,AS_APPOINTED,2022-03-07

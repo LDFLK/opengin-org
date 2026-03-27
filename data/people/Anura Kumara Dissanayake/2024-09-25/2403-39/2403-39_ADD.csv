@@ -1,12 +1,12 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2403-39_tr_01,"Minister of Justice, Public Administration, Home Affairs, Provincial Councils, Local Government and Labour",minister,Harini Amarasuriya,citizen,AS_APPOINTED,2024-09-25
-2403-39_tr_02,"Minister of Education, Science and Technology",minister,Harini Amarasuriya,citizen,AS_APPOINTED,2024-09-25
-2403-39_tr_03,"Minister of Women, Child and Youth Affairs and Sports",minister,Harini Amarasuriya,citizen,AS_APPOINTED,2024-09-25
-2403-39_tr_04,"Minister of Trade, Commerce, Food Security, Co-operative Development, Industry and Entrepreneurship Development",minister,Harini Amarasuriya,citizen,AS_APPOINTED,2024-09-25
-2403-39_tr_05,Minister of Health,minister,Harini Amarasuriya,citizen,AS_APPOINTED,2024-09-25
-2403-39_tr_06,"Minister of Buddhasasana, Religious and Cultural Affairs, National Integration, Social Security, and Mass Media",minister,Herath Mudiyanselage Vijitha Herath,citizen,AS_APPOINTED,2024-09-25
-2403-39_tr_07,"Minister of Transport, Highways, Ports and Civil Aviation",minister,Herath Mudiyanselage Vijitha Herath,citizen,AS_APPOINTED,2024-09-25
-2403-39_tr_08,Minister of Public Security,minister,Herath Mudiyanselage Vijitha Herath,citizen,AS_APPOINTED,2024-09-25
-2403-39_tr_09,Minister of Foreign Affairs,minister,Herath Mudiyanselage Vijitha Herath,citizen,AS_APPOINTED,2024-09-25
-2403-39_tr_10,"Minister of Environment, Wildlife, Forest Resources, Water Supply, Plantation and Community Infrastructure",minister,Herath Mudiyanselage Vijitha Herath,citizen,AS_APPOINTED,2024-09-25
-2403-39_tr_11,"Minister of Rural and Urban Development, Housing and Construction",minister,Herath Mudiyanselage Vijitha Herath,citizen,AS_APPOINTED,2024-09-25
+2403-39_tr_01,"Minister of Justice, Public Administration, Home Affairs, Provincial Councils, Local Government and Labour",cabinetMinister,Harini Amarasuriya,citizen,AS_APPOINTED,2024-09-25
+2403-39_tr_02,"Minister of Education, Science and Technology",cabinetMinister,Harini Amarasuriya,citizen,AS_APPOINTED,2024-09-25
+2403-39_tr_03,"Minister of Women, Child and Youth Affairs and Sports",cabinetMinister,Harini Amarasuriya,citizen,AS_APPOINTED,2024-09-25
+2403-39_tr_04,"Minister of Trade, Commerce, Food Security, Co-operative Development, Industry and Entrepreneurship Development",cabinetMinister,Harini Amarasuriya,citizen,AS_APPOINTED,2024-09-25
+2403-39_tr_05,Minister of Health,cabinetMinister,Harini Amarasuriya,citizen,AS_APPOINTED,2024-09-25
+2403-39_tr_06,"Minister of Buddhasasana, Religious and Cultural Affairs, National Integration, Social Security, and Mass Media",cabinetMinister,Herath Mudiyanselage Vijitha Herath,citizen,AS_APPOINTED,2024-09-25
+2403-39_tr_07,"Minister of Transport, Highways, Ports and Civil Aviation",cabinetMinister,Herath Mudiyanselage Vijitha Herath,citizen,AS_APPOINTED,2024-09-25
+2403-39_tr_08,Minister of Public Security,cabinetMinister,Herath Mudiyanselage Vijitha Herath,citizen,AS_APPOINTED,2024-09-25
+2403-39_tr_09,Minister of Foreign Affairs,cabinetMinister,Herath Mudiyanselage Vijitha Herath,citizen,AS_APPOINTED,2024-09-25
+2403-39_tr_10,"Minister of Environment, Wildlife, Forest Resources, Water Supply, Plantation and Community Infrastructure",cabinetMinister,Herath Mudiyanselage Vijitha Herath,citizen,AS_APPOINTED,2024-09-25
+2403-39_tr_11,"Minister of Rural and Urban Development, Housing and Construction",cabinetMinister,Herath Mudiyanselage Vijitha Herath,citizen,AS_APPOINTED,2024-09-25

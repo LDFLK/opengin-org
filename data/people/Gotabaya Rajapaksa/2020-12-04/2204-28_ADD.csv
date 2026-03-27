@@ -1,3 +1,3 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2204-28_tr_02,"State Minister of Primary Health Care, Epidemics and COVID Disease Control",minister,Sudarshini Fernandopulle,citizen,AS_APPOINTED,2020-12-04
-2204-28_tr_03,"State Minister of Prison Reforms and Prisoners' Rehabilitation",minister,Lohan Ratwatte,citizen,AS_APPOINTED,2020-12-04
+2204-28_tr_02,"State Minister of Primary Health Care, Epidemics and COVID Disease Control",stateMinister,Sudarshini Fernandopulle,citizen,AS_APPOINTED,2020-12-04
+2204-28_tr_03,State Minister of Prison Reforms and Prisoners' Rehabilitation,stateMinister,Lohan Ratwatte,citizen,AS_APPOINTED,2020-12-04

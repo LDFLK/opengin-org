@@ -1,10 +1,10 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2281-31_tr_01,Minister of Agriculture,minister,Janaka Wakkumbura,citizen,AS_APPOINTED,2022-05-26
-2281-31_tr_02,Minister of Irrigation,minister,Janaka Wakkumbura,citizen,AS_APPOINTED,2022-05-26
-2281-31_tr_03,Minister of Water Supply,minister,Agampodi Mohan Priyadarshana De Silva,citizen,AS_APPOINTED,2022-05-26
-2281-31_tr_04,Minister of Wildlife and Forest Resources Conservation,minister,Wimalaweera Dissanayaka,citizen,AS_APPOINTED,2022-05-26
-2281-31_tr_05,Minister of Youth and Sports,minister,Amith Thenuka Vidanagamage,citizen,AS_APPOINTED,2022-05-26
-2281-31_tr_06,Minister of Mass Media,minister,Nalaka Godahewa,citizen,AS_APPOINTED,2022-05-26
-2281-31_tr_07,Minister of Transport,minister,Amunugama Dilum Suraj Bandara,citizen,AS_APPOINTED,2022-05-26
-2281-31_tr_09,"Minister of Buddha Sasana, Religious and Cultural Affairs",minister,Mahinda Rajapaksa,citizen,AS_APPOINTED,2022-05-26
-2281-31_tr_14,Minister of Industries,minister,Amunugama Dilum Suraj Bandara,citizen,AS_APPOINTED,2022-05-26
+2281-31_tr_01,Minister of Agriculture,cabinetMinister,Janaka Wakkumbura,citizen,AS_APPOINTED,2022-05-26
+2281-31_tr_02,Minister of Irrigation,cabinetMinister,Janaka Wakkumbura,citizen,AS_APPOINTED,2022-05-26
+2281-31_tr_03,Minister of Water Supply,cabinetMinister,Agampodi Mohan Priyadarshana De Silva,citizen,AS_APPOINTED,2022-05-26
+2281-31_tr_04,Minister of Wildlife and Forest Resources Conservation,cabinetMinister,Wimalaweera Dissanayaka,citizen,AS_APPOINTED,2022-05-26
+2281-31_tr_05,Minister of Youth and Sports,cabinetMinister,Amith Thenuka Vidanagamage,citizen,AS_APPOINTED,2022-05-26
+2281-31_tr_06,Minister of Mass Media,cabinetMinister,Nalaka Godahewa,citizen,AS_APPOINTED,2022-05-26
+2281-31_tr_07,Minister of Transport,cabinetMinister,Amunugama Dilum Suraj Bandara,citizen,AS_APPOINTED,2022-05-26
+2281-31_tr_09,"Minister of Buddha Sasana, Religious and Cultural Affairs",cabinetMinister,Mahinda Rajapaksa,citizen,AS_APPOINTED,2022-05-26
+2281-31_tr_14,Minister of Industries,cabinetMinister,Amunugama Dilum Suraj Bandara,citizen,AS_APPOINTED,2022-05-26

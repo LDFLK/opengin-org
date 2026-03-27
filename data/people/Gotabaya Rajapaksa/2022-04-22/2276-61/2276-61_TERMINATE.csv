@@ -1,13 +1,13 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2276-61_tr_01,State Minister of Defence,minister,Chamal Rajapaksa,citizen,AS_APPOINTED,2022-04-22
-2276-61_tr_02,State Minister of Home Affairs,minister,Chamal Rajapaksa,citizen,AS_APPOINTED,2022-04-22
-2276-61_tr_03,State Minister of Digital Technology and Enterprise Development,minister,Namal Rajapaksa,citizen,AS_APPOINTED,2022-04-22
-2276-61_tr_04,State Minister of Foreign Employment Promotion and Market Diversification,minister,Piyankara Jayaratne,citizen,AS_APPOINTED,2022-04-22
-2276-61_tr_05,"State Minister of Solar, Wind and Hydro Power Generation Projects Development",minister,Duminda Dissanayaka,citizen,AS_APPOINTED,2022-04-22
-2276-61_tr_06,"State Minister of Batik, Handloom and Local Apparel Products",minister,Dayasiri Jayasekara,citizen,AS_APPOINTED,2022-04-22
-2276-61_tr_07,"State Minister of Cooperative Services, Marketing Development and Consumer Protection",minister,Lasantha Alagiyawanna,citizen,AS_APPOINTED,2022-04-22
-2276-61_tr_08,"State Minister of Primary Health Care, Epidemics and COVID Disease Control",minister,Sudarshini Fernandopulle,citizen,AS_APPOINTED,2022-04-22
-2276-61_tr_09,State Minister of Rural Roads and other Infrastructure,minister,Nimal Lanza,citizen,AS_APPOINTED,2022-04-22
-2276-61_tr_10,State Minister of Provincial Councils and Local Government,minister,Roshan Ranasinghe,citizen,AS_APPOINTED,2022-04-22
-2276-61_tr_11,"State Minister of Promoting the Production & Regulating the Supply of Organic Fertilizer, and Paddy & Grains, Organic Foods, Vegetables, Fruits, Chillies, Onion and Potato Cultivation Promoting, Seed Production and Advanced Technology Agriculture",minister,Shashindra Rajapaksa,citizen,AS_APPOINTED,2022-04-22
-2276-61_tr_12,State Minister of Estate Housing and Community Infrastructure,minister,Jeevan Thondaman,citizen,AS_APPOINTED,2022-04-22
+2276-61_tr_01,State Minister of Defence,stateMinister,Chamal Rajapaksa,citizen,AS_APPOINTED,2022-04-22
+2276-61_tr_02,State Minister of Home Affairs,stateMinister,Chamal Rajapaksa,citizen,AS_APPOINTED,2022-04-22
+2276-61_tr_03,State Minister of Digital Technology and Enterprise Development,stateMinister,Namal Rajapaksa,citizen,AS_APPOINTED,2022-04-22
+2276-61_tr_04,State Minister of Foreign Employment Promotion and Market Diversification,stateMinister,Piyankara Jayaratne,citizen,AS_APPOINTED,2022-04-22
+2276-61_tr_05,"State Minister of Solar, Wind and Hydro Power Generation Projects Development",stateMinister,Duminda Dissanayaka,citizen,AS_APPOINTED,2022-04-22
+2276-61_tr_06,"State Minister of Batik, Handloom and Local Apparel Products",stateMinister,Dayasiri Jayasekara,citizen,AS_APPOINTED,2022-04-22
+2276-61_tr_07,"State Minister of Cooperative Services, Marketing Development and Consumer Protection",stateMinister,Lasantha Alagiyawanna,citizen,AS_APPOINTED,2022-04-22
+2276-61_tr_08,"State Minister of Primary Health Care, Epidemics and COVID Disease Control",stateMinister,Sudarshini Fernandopulle,citizen,AS_APPOINTED,2022-04-22
+2276-61_tr_09,State Minister of Rural Roads and other Infrastructure,stateMinister,Nimal Lanza,citizen,AS_APPOINTED,2022-04-22
+2276-61_tr_10,State Minister of Provincial Councils and Local Government,stateMinister,Roshan Ranasinghe,citizen,AS_APPOINTED,2022-04-22
+2276-61_tr_11,"State Minister of Promoting the Production & Regulating the Supply of Organic Fertilizer, and Paddy & Grains, Organic Foods, Vegetables, Fruits, Chillies, Onion and Potato Cultivation Promoting, Seed Production and Advanced Technology Agriculture",stateMinister,Shashindra Rajapaksa,citizen,AS_APPOINTED,2022-04-22
+2276-61_tr_12,State Minister of Estate Housing and Community Infrastructure,stateMinister,Jeevan Thondaman,citizen,AS_APPOINTED,2022-04-22

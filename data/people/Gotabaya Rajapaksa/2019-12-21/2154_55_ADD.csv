@@ -1,39 +1,39 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2154-55_tr_01,State Minister of Defence,minister,Chamal Rajapaksa,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_02,State Minister of Water Supply Facilities,minister,Vasudeva Nanayakkara,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_03,State Minister of Urban Development,minister,Gamini Lokuge,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_04,State Minister of Irrigation and Rural Development,minister,Mahinda Yapa Abeywardene,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_05,State Minister of Lands and Land Development,minister,S.B. Dissanayake,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_06,State Minister of Economy and Policy Development,minister,John Seneviratne,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_07,State Minister of Public Administration and Home Affairs,minister,Mahinda Samarasinghe,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_08,State Minister of Railway Services,minister,C.B. Ratnayake,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_09,State Minister of Information and Communication Technology,minister,Lakshman Yapa Abeywardene,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_10,State Minister of Small & Medium Enterprise Development,minister,Susantha Punchinilame,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_11,State Minister of Internal Trade and Consumer Welfare,minister,Anura Priyadarshana Yapa,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_12,State Minister of International Co-operation,minister,Susil Premajayanth,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_13,State Minister of Indigenous Medicine Services,minister,Piyankara Jayaratne,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_14,State Minister of Education Services,minister,Ranjith Siyambalapitiya,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_15,State Minister of Power,minister,Mahindananda Aluthgamage,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_16,State Minister of Youth Affairs,minister,Duminda Dissanayake,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_17,State Minister of Energy,minister,Rohitha Abeygunawardene,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_18,State Minister of Industries,minister,Dayasiri Jayasekara,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_19,State Minister of Public Management and Accounting,minister,Lasantha Alagiyawanna,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_20,State Minister of Investment Promotions,minister,Keheliya Rambukwella,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_21,State Minister of Tourism Promotion Affairs,minister,Arundika Fernando,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_22,State Minister of Technology and Innovations,minister,Thilanga Sumathipala,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_23,State Minister of Human Rights and Law Reforms,minister,Mohan Priyadarshana De Silva,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_24,State Minister of Women and Child Affairs,minister,Vijitha Berugoda,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_25,State Minister of Mahaweli Development,minister,Roshan Ranasinghe,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_26,State Minister of Export Agriculture,minister,Janaka Wakkumbura,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_27,State Minister of Agriculture,minister,Vidura Wickramanayaka,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_28,State Minister of Development Banking and Loan Schemes,minister,Shehan Semasinghe,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_29,State Minister of Ports Development Affairs,minister,Kanaka Herath,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_30,State Minister of Transport Services Management,minister,Dilum Amunugama,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_31,State Minister of Highways Development,minister,Lohan Ratwatte,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_32,State Minister of Wildlife Resources,minister,Wimalaweera Dissanayake,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_33,State Minister of Environment,minister,Jayantha Samaraweera,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_34,State Minister of Fisheries and Inland Fisheries Industry,minister,Sanath Nishantha Perera,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_35,State Minister of Social Security,minister,Tharaka Balasuriya,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_36,State Minister of Community Development,minister,Nimal Lanza,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_37,State Minister of Tea Industry Development,minister,Kanchana Wijesekara,citizen,AS_APPOINTED,2019-12-21
-2154-55_tr_38,State Minister of Housing,minister,Indika Anuruddha,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_01,State Minister of Defence,stateMinister,Chamal Rajapaksa,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_02,State Minister of Water Supply Facilities,stateMinister,Vasudeva Nanayakkara,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_03,State Minister of Urban Development,stateMinister,Gamini Lokuge,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_04,State Minister of Irrigation and Rural Development,stateMinister,Mahinda Yapa Abeywardene,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_05,State Minister of Lands and Land Development,stateMinister,S.B. Dissanayake,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_06,State Minister of Economy and Policy Development,stateMinister,John Seneviratne,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_07,State Minister of Public Administration and Home Affairs,stateMinister,Mahinda Samarasinghe,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_08,State Minister of Railway Services,stateMinister,C.B. Ratnayake,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_09,State Minister of Information and Communication Technology,stateMinister,Lakshman Yapa Abeywardene,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_10,State Minister of Small & Medium Enterprise Development,stateMinister,Susantha Punchinilame,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_11,State Minister of Internal Trade and Consumer Welfare,stateMinister,Anura Priyadarshana Yapa,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_12,State Minister of International Co-operation,stateMinister,Susil Premajayanth,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_13,State Minister of Indigenous Medicine Services,stateMinister,Piyankara Jayaratne,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_14,State Minister of Education Services,stateMinister,Ranjith Siyambalapitiya,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_15,State Minister of Power,stateMinister,Mahindananda Aluthgamage,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_16,State Minister of Youth Affairs,stateMinister,Duminda Dissanayake,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_17,State Minister of Energy,stateMinister,Rohitha Abeygunawardene,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_18,State Minister of Industries,stateMinister,Dayasiri Jayasekara,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_19,State Minister of Public Management and Accounting,stateMinister,Lasantha Alagiyawanna,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_20,State Minister of Investment Promotions,stateMinister,Keheliya Rambukwella,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_21,State Minister of Tourism Promotion Affairs,stateMinister,Arundika Fernando,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_22,State Minister of Technology and Innovations,stateMinister,Thilanga Sumathipala,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_23,State Minister of Human Rights and Law Reforms,stateMinister,Mohan Priyadarshana De Silva,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_24,State Minister of Women and Child Affairs,stateMinister,Vijitha Berugoda,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_25,State Minister of Mahaweli Development,stateMinister,Roshan Ranasinghe,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_26,State Minister of Export Agriculture,stateMinister,Janaka Wakkumbura,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_27,State Minister of Agriculture,stateMinister,Vidura Wickramanayaka,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_28,State Minister of Development Banking and Loan Schemes,stateMinister,Shehan Semasinghe,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_29,State Minister of Ports Development Affairs,stateMinister,Kanaka Herath,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_30,State Minister of Transport Services Management,stateMinister,Dilum Amunugama,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_31,State Minister of Highways Development,stateMinister,Lohan Ratwatte,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_32,State Minister of Wildlife Resources,stateMinister,Wimalaweera Dissanayake,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_33,State Minister of Environment,stateMinister,Jayantha Samaraweera,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_34,State Minister of Fisheries and Inland Fisheries Industry,stateMinister,Sanath Nishantha Perera,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_35,State Minister of Social Security,stateMinister,Tharaka Balasuriya,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_36,State Minister of Community Development,stateMinister,Nimal Lanza,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_37,State Minister of Tea Industry Development,stateMinister,Kanchana Wijesekara,citizen,AS_APPOINTED,2019-12-21
+2154-55_tr_38,State Minister of Housing,stateMinister,Indika Anuruddha,citizen,AS_APPOINTED,2019-12-21

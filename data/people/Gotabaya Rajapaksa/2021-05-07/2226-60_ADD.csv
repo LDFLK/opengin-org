@@ -1,2 +1,2 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2226-60_tr_01,State Minister of Community Police Services,minister,Dilum Amunugama,citizen,AS_APPOINTED,2021-05-07
+2226-60_tr_01,State Minister of Community Police Services,stateMinister,Dilum Amunugama,citizen,AS_APPOINTED,2021-05-07

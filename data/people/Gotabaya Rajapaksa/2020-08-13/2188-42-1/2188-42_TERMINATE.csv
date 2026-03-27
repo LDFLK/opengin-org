@@ -1,11 +1,11 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2188-42_tr_28,Minister of Transport,minister,Mahinda Amaraweera,citizen,AS_APPOINTED,2020-08-13
-2188-42_tr_31,"State Minister of Urban Development, Coast Conservation, Waste Disposal and Community Cleanliness",minister,Gamini Lokuge,citizen,AS_APPOINTED,2020-08-13
-2188-42_tr_35,State Minister of Public Administration and Home Affairs,minister,Mahinda Samarasinghe,citizen,AS_APPOINTED,2020-08-13
-2188-42_tr_42,State Minister of Education Services,minister,Ranjith Siyambalapitiya,citizen,AS_APPOINTED,2020-08-13
-2188-42_tr_47,State Minister of Public Management and Accounting,minister,Lasantha Alagiyawanna,citizen,AS_APPOINTED,2020-08-13
-2188-42_tr_53,State Minister of Mahaweli Development,minister,Roshan Ranasinghe,citizen,AS_APPOINTED,2020-08-13
-2188-42_tr_57,State Minister of Ports Development Affairs,minister,Kanaka Herath,citizen,AS_APPOINTED,2020-08-13
-2188-42_tr_58,State Minister of Transport Services Management,minister,Dilum Amunugama,citizen,AS_APPOINTED,2020-08-13
-2188-42_tr_65,State Minister of Tea Industry Development,minister,Kanchana Wijesekara,citizen,AS_APPOINTED,2020-08-13
-2188-42_tr_67,Minister of Mass Media,minister,Bandula Gunawardana,citizen,AS_APPOINTED,2020-08-13
+2188-42_tr_28,Minister of Transport,cabinetMinister,Mahinda Amaraweera,citizen,AS_APPOINTED,2020-08-13
+2188-42_tr_31,"State Minister of Urban Development, Coast Conservation, Waste Disposal and Community Cleanliness",stateMinister,Gamini Lokuge,citizen,AS_APPOINTED,2020-08-13
+2188-42_tr_35,State Minister of Public Administration and Home Affairs,stateMinister,Mahinda Samarasinghe,citizen,AS_APPOINTED,2020-08-13
+2188-42_tr_42,State Minister of Education Services,stateMinister,Ranjith Siyambalapitiya,citizen,AS_APPOINTED,2020-08-13
+2188-42_tr_47,State Minister of Public Management and Accounting,stateMinister,Lasantha Alagiyawanna,citizen,AS_APPOINTED,2020-08-13
+2188-42_tr_53,State Minister of Mahaweli Development,stateMinister,Roshan Ranasinghe,citizen,AS_APPOINTED,2020-08-13
+2188-42_tr_57,State Minister of Ports Development Affairs,stateMinister,Kanaka Herath,citizen,AS_APPOINTED,2020-08-13
+2188-42_tr_58,State Minister of Transport Services Management,stateMinister,Dilum Amunugama,citizen,AS_APPOINTED,2020-08-13
+2188-42_tr_65,State Minister of Tea Industry Development,stateMinister,Kanchana Wijesekara,citizen,AS_APPOINTED,2020-08-13
+2188-42_tr_67,Minister of Mass Media,cabinetMinister,Bandula Gunawardana,citizen,AS_APPOINTED,2020-08-13

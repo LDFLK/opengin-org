@@ -1,2 +1,2 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2236-56_tr_02,Minister of Finance,minister,Basil Rajapaksa,citizen,AS_APPOINTED,2021-07-16
+2236-56_tr_02,Minister of Finance,cabinetMinister,Basil Rajapaksa,citizen,AS_APPOINTED,2021-07-16

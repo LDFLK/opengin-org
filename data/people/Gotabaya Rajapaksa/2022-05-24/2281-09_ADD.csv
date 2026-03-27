@@ -1,4 +1,4 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2281-09_tr_06,Minister of Education,minister,Achchige Don Susil Premajayanth,citizen,AS_APPOINTED,2022-05-24
-2281-09_tr_07,Minister of Health,minister,Keheliya Rambukwella,citizen,AS_APPOINTED,2022-05-24
-2281-09_tr_08,Minister of Public Security,minister,Tiran Alles,citizen,AS_APPOINTED,2022-05-24
+2281-09_tr_06,Minister of Education,cabinetMinister,Achchige Don Susil Premajayanth,citizen,AS_APPOINTED,2022-05-24
+2281-09_tr_07,Minister of Health,cabinetMinister,Keheliya Rambukwella,citizen,AS_APPOINTED,2022-05-24
+2281-09_tr_08,Minister of Public Security,cabinetMinister,Tiran Alles,citizen,AS_APPOINTED,2022-05-24

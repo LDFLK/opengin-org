@@ -1,5 +1,5 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2281-09_tr_08,"Minister of Ports, Shipping and Aviation",minister,Thennakoon Pramitha Bandara,citizen,AS_APPOINTED,2022-05-24
-2281-09_tr_09,Minister of Tourism and Lands,minister,Prasanna Ranatunga,citizen,AS_APPOINTED,2022-05-24
-2281-09-02_tr_11,"Minister of Trade, Commerce and Food Security",minister,Asanka Shehan Semasinghe,citizen,AS_APPOINTED,2022-05-24
-2281-09-02_tr_10,Minister of Labour and Foreign Employment,minister,Vidura Wickramanayaka,citizen,AS_APPOINTED,2022-05-24
+2281-09_tr_08,"Minister of Ports, Shipping and Aviation",cabinetMinister,Thennakoon Pramitha Bandara,citizen,AS_APPOINTED,2022-05-24
+2281-09_tr_09,Minister of Tourism and Lands,cabinetMinister,Prasanna Ranatunga,citizen,AS_APPOINTED,2022-05-24
+2281-09-02_tr_11,"Minister of Trade, Commerce and Food Security",cabinetMinister,Asanka Shehan Semasinghe,citizen,AS_APPOINTED,2022-05-24
+2281-09-02_tr_10,Minister of Labour and Foreign Employment,cabinetMinister,Vidura Wickramanayaka,citizen,AS_APPOINTED,2022-05-24

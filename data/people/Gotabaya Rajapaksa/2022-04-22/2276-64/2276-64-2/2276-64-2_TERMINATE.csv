@@ -1,3 +1,3 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2276-64-2_tr_29,State Minister of Transport,minister,Dilum Amunugama,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_11,State Minister of Youth and Sports,minister,Thenuka Vidanagamage,citizen,AS_APPOINTED,2022-04-22
+2276-64-2_tr_29,State Minister of Transport,stateMinister,Dilum Amunugama,citizen,AS_APPOINTED,2022-04-22
+2276-64-2_tr_11,State Minister of Youth and Sports,stateMinister,Thenuka Vidanagamage,citizen,AS_APPOINTED,2022-04-22

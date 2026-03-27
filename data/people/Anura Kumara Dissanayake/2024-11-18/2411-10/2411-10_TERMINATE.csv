@@ -1,12 +1,12 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2411-10_tr_23,"Minister of Agriculture, Livestock, Land and Irrigation",minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_28,"Minister of Trade, Commerce, Food Security and Cooperative Development",minister,Harini Amarasuriya,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_29,"Minister of Transport, Highways, Ports and Civil Aviation",minister,Herath Mudiyanselage Vijitha Herath,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_30,"Minister of Environment",minister,Herath Mudiyanselage Vijitha Herath,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_31,Minister of Health and Mass Media,minister,Harini Amarasuriya,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_32,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,Herath Mudiyanselage Vijitha Herath,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_34,Minister of Justice and National Integration,minister,Harini Amarasuriya,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_35,"Minister of Urban Development, Construction and Housing",minister,Herath Mudiyanselage Vijitha Herath,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_36,Minister of Public Security and Parliamentary Affairs,minister,Herath Mudiyanselage Vijitha Herath,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_37,Minister of Energy,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-11-18
-2411-10_tr_38,Minister of Women and Child Affairs,minister,Harini Amarasuriya,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_23,"Minister of Agriculture, Livestock, Land and Irrigation",cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_28,"Minister of Trade, Commerce, Food Security and Cooperative Development",cabinetMinister,Harini Amarasuriya,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_29,"Minister of Transport, Highways, Ports and Civil Aviation",cabinetMinister,Herath Mudiyanselage Vijitha Herath,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_30,Minister of Environment,cabinetMinister,Herath Mudiyanselage Vijitha Herath,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_31,Minister of Health and Mass Media,cabinetMinister,Harini Amarasuriya,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_32,"Minister of Buddhasasana, Religious and Cultural Affairs",cabinetMinister,Herath Mudiyanselage Vijitha Herath,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_34,Minister of Justice and National Integration,cabinetMinister,Harini Amarasuriya,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_35,"Minister of Urban Development, Construction and Housing",cabinetMinister,Herath Mudiyanselage Vijitha Herath,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_36,Minister of Public Security and Parliamentary Affairs,cabinetMinister,Herath Mudiyanselage Vijitha Herath,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_37,Minister of Energy,cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-11-18
+2411-10_tr_38,Minister of Women and Child Affairs,cabinetMinister,Harini Amarasuriya,citizen,AS_APPOINTED,2024-11-18

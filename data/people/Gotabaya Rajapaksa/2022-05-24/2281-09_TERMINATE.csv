@@ -1,4 +1,4 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2281-09_tr_01,Minister of Public Security,minister,Prasanna Ranatunga,citizen,AS_APPOINTED,2022-05-24
-2281-09_tr_02,Minister of Education,minister,Ramesh Pathirana,citizen,AS_APPOINTED,2022-05-24
-2281-09_tr_03,Minister of Health,minister,Channa Jayasumana,citizen,AS_APPOINTED,2022-05-24
+2281-09_tr_01,Minister of Public Security,cabinetMinister,Prasanna Ranatunga,citizen,AS_APPOINTED,2022-05-24
+2281-09_tr_02,Minister of Education,cabinetMinister,Ramesh Pathirana,citizen,AS_APPOINTED,2022-05-24
+2281-09_tr_03,Minister of Health,cabinetMinister,Channa Jayasumana,citizen,AS_APPOINTED,2022-05-24

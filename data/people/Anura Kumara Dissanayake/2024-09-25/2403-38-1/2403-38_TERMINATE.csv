@@ -1,33 +1,33 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2403-38-01_tr_01,Minister of Defence,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_02,"Minister of Finance, Economic Stabilization and National Policies",minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_03,Minister of Technology,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_04,"Minister of Women, Child Affairs and Social Empowerment",minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_05,"Minister of Ports, Shipping and Aviation",minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_06,Minister of Investment Promotion,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_07,"Minister of Public Administration, Home Affairs, Provincial Councils and Local Government",minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_08,Minister of Fisheries,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_09,Minister of Education,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_10,Minister of Transport and Highways,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_11,Minister of Mass Media,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_12,Minister of Health,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_13,Minister of Water Supply and Estate Infrastructure Development,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_14,Minister of Agriculture and Plantation Industries,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_15,Minister of Wildlife and Forest Resources Conservation,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_16,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_17,Minister of Tourism and Lands,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_18,Minister of Industries,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_19,Minister of Urban Development and Housing,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_20,Minister of Foreign Affairs,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_21,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_22,Minister of Power and Energy,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_23,Minister of Environment,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_24,Minister of Sports and Youth Affairs,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_25,Minister of Irrigation,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_26,Minister of Labour and Foreign Employment,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_27,Minister of Public Security,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_28,"Minister of Trade, Commerce and Food Security",minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_29,State Minister of Higher Education,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_30,Non Cabinet Minister of State Plantation Enterprises Reforms,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_31,State Minister of Sports and Youth Affairs,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-01_tr_32,Non Cabinet Minister of Development Projects,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_01,Minister of Defence,cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_02,"Minister of Finance, Economic Stabilization and National Policies",cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_03,Minister of Technology,cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_04,"Minister of Women, Child Affairs and Social Empowerment",cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_05,"Minister of Ports, Shipping and Aviation",cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_06,Minister of Investment Promotion,cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_07,"Minister of Public Administration, Home Affairs, Provincial Councils and Local Government",cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_08,Minister of Fisheries,cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_09,Minister of Education,cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_10,Minister of Transport and Highways,cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_11,Minister of Mass Media,cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_12,Minister of Health,cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_13,Minister of Water Supply and Estate Infrastructure Development,cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_14,Minister of Agriculture and Plantation Industries,cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_15,Minister of Wildlife and Forest Resources Conservation,cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_16,"Minister of Justice, Prisons Affairs and Constitutional Reforms",cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_17,Minister of Tourism and Lands,cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_18,Minister of Industries,cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_19,Minister of Urban Development and Housing,cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_20,Minister of Foreign Affairs,cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_21,"Minister of Buddhasasana, Religious and Cultural Affairs",cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_22,Minister of Power and Energy,cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_23,Minister of Environment,cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_24,Minister of Sports and Youth Affairs,cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_25,Minister of Irrigation,cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_26,Minister of Labour and Foreign Employment,cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_27,Minister of Public Security,cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_28,"Minister of Trade, Commerce and Food Security",cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_29,State Minister of Higher Education,stateMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_30,Non Cabinet Minister of State Plantation Enterprises Reforms,stateMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_31,State Minister of Sports and Youth Affairs,stateMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-01_tr_32,Non Cabinet Minister of Development Projects,stateMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25

@@ -1,2 +1,2 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2231-09_tr_01,State Minister of Digital Technology and Enterprise Development,minister,Namal Rajapaksa,citizen,AS_APPOINTED,2021-06-09
+2231-09_tr_01,State Minister of Digital Technology and Enterprise Development,stateMinister,Namal Rajapaksa,citizen,AS_APPOINTED,2021-06-09

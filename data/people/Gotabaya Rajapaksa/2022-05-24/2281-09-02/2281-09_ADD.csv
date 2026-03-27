@@ -1,6 +1,6 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2281-09-02_tr_05,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Wijayadasa Rajapaksh,citizen,AS_APPOINTED,2022-05-24
-2281-09-02_tr_09,"Minister of Ports, Shipping and Aviation",minister,Nimal Siripala de Silva,citizen,AS_APPOINTED,2022-05-24
-2281-09-02_tr_10,Minister of Tourism and Lands,minister,Nalaka Jude Hareen Fernando,citizen,AS_APPOINTED,2022-05-24
-2281-09-02_tr_11,Minister of Labour and Foreign Employment,minister,Maligaspe Koralege Nalin Manusha Nanayakkara,citizen,AS_APPOINTED,2022-05-24
-2281-09-02_tr_12,"Minister of Trade, Commerce and Food Security",minister,Kachchakaduge Nalin Ruwanjiwa Fernando,citizen,AS_APPOINTED,2022-05-24
+2281-09-02_tr_05,"Minister of Justice, Prisons Affairs and Constitutional Reforms",cabinetMinister,Wijayadasa Rajapaksh,citizen,AS_APPOINTED,2022-05-24
+2281-09-02_tr_09,"Minister of Ports, Shipping and Aviation",cabinetMinister,Nimal Siripala de Silva,citizen,AS_APPOINTED,2022-05-24
+2281-09-02_tr_10,Minister of Tourism and Lands,cabinetMinister,Nalaka Jude Hareen Fernando,citizen,AS_APPOINTED,2022-05-24
+2281-09-02_tr_11,Minister of Labour and Foreign Employment,cabinetMinister,Maligaspe Koralege Nalin Manusha Nanayakkara,citizen,AS_APPOINTED,2022-05-24
+2281-09-02_tr_12,"Minister of Trade, Commerce and Food Security",cabinetMinister,Kachchakaduge Nalin Ruwanjiwa Fernando,citizen,AS_APPOINTED,2022-05-24

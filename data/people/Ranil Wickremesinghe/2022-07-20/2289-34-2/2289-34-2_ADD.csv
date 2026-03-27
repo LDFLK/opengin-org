@@ -1,40 +1,40 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2289-34-2_tr_30,Minister of Investment Promotion,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_31,Minister of Technology,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_32,"Minister of Women, Child Affairs and Social Empowerment",minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_33,"Minister of Trade, Commerce and Food Security",minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_34,Minister of Labour and Foreign Employment,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_35,Minister of Sports and Youth Affairs,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_36,Minister of Power & Energy,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_37,Minister of Tourism and Lands,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_38,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_39,Minister of Transport and Highways,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_40,"Minister of Ports, Shipping and Aviation",minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_41,"Minister of Finance, Economic Stabilization and National Policies",minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_42,State Minister of Highways,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_43,Minister of Plantation Industries,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_44,"Minister of Public Administration, Home Affairs, Provincial Councils & Local Government",minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_45,Minister of Wildlife and Forest Resources Conservation,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_46,Minister of Foreign Affairs,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_47,State Minister of Community Police Services,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_48,Minister of Public Security,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_49,Minister of Mass Media,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_50,Minister of Industries,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_51,Minister of Water Supply,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_52,Minister of Fisheries,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_53,Minister of Irrigation,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_54,Minister of Agriculture,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_55,Minister of Environment,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_56,Minister of Health,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_57,Minister of Urban Development and Housing,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_58,"Minister of Buddha Sasana, Religious and Cultural Affairs",minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_59,State Minister of Tea Industry Development,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_60,State Minister of Transport Services Management,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_61,State Minister of Ports Development Affairs,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_62,State Minister of Mahaweli Development,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_63,Minister of Defence,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_64,Minister of Education,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_65,Minister of Industrial Export and Investment Promotion,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_66,State Minister of Public Administration and Home Affairs,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_67,State Minister of Education Services,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_68,State Minister of Public Management and Accounting,minister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_30,Minister of Investment Promotion,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_31,Minister of Technology,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_32,"Minister of Women, Child Affairs and Social Empowerment",cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_33,"Minister of Trade, Commerce and Food Security",cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_34,Minister of Labour and Foreign Employment,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_35,Minister of Sports and Youth Affairs,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_36,Minister of Power & Energy,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_37,Minister of Tourism and Lands,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_38,"Minister of Justice, Prisons Affairs and Constitutional Reforms",cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_39,Minister of Transport and Highways,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_40,"Minister of Ports, Shipping and Aviation",cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_41,"Minister of Finance, Economic Stabilization and National Policies",cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_42,State Minister of Highways,stateMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_43,Minister of Plantation Industries,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_44,"Minister of Public Administration, Home Affairs, Provincial Councils & Local Government",cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_45,Minister of Wildlife and Forest Resources Conservation,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_46,Minister of Foreign Affairs,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_47,State Minister of Community Police Services,stateMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_48,Minister of Public Security,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_49,Minister of Mass Media,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_50,Minister of Industries,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_51,Minister of Water Supply,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_52,Minister of Fisheries,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_53,Minister of Irrigation,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_54,Minister of Agriculture,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_55,Minister of Environment,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_56,Minister of Health,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_57,Minister of Urban Development and Housing,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_58,"Minister of Buddha Sasana, Religious and Cultural Affairs",cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_59,State Minister of Tea Industry Development,stateMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_60,State Minister of Transport Services Management,stateMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_61,State Minister of Ports Development Affairs,stateMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_62,State Minister of Mahaweli Development,stateMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_63,Minister of Defence,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_64,Minister of Education,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_65,Minister of Industrial Export and Investment Promotion,cabinetMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_66,State Minister of Public Administration and Home Affairs,stateMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_67,State Minister of Education Services,stateMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_68,State Minister of Public Management and Accounting,stateMinister,Ranil Wickremesinghe,citizen,AS_APPOINTED,2022-07-20

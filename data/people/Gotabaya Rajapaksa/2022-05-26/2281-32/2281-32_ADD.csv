@@ -1,2 +1,2 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2281-32_tr_02,"Minister of Finance, Economic Stabilization and National Policies",minister,Ranil Wickremasinghe,citizen,AS_APPOINTED,2022-05-26
+2281-32_tr_02,"Minister of Finance, Economic Stabilization and National Policies",cabinetMinister,Ranil Wickremasinghe,citizen,AS_APPOINTED,2022-05-26

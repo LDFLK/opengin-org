@@ -1,4 +1,4 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2270-17_tr_05,Minister of Industries,minister,S.B. Dissanayaka,citizen,AS_APPOINTED,2022-03-08
-2270-17_tr_07,"State Minister of Coconut, Kithul and Palmyrah Cultivation Promotion and Related Industrial Product Manufacturing and Export Diversification",minister,Arundika Fernando,citizen,AS_APPOINTED,2022-03-08
-2270-17_tr_08,State Minister of Disaster Management,minister,Wimalaweera Dissanayaka,citizen,AS_APPOINTED,2022-03-08
+2270-17_tr_05,Minister of Industries,cabinetMinister,S.B. Dissanayaka,citizen,AS_APPOINTED,2022-03-08
+2270-17_tr_07,"State Minister of Coconut, Kithul and Palmyrah Cultivation Promotion and Related Industrial Product Manufacturing and Export Diversification",stateMinister,Arundika Fernando,citizen,AS_APPOINTED,2022-03-08
+2270-17_tr_08,State Minister of Disaster Management,stateMinister,Wimalaweera Dissanayaka,citizen,AS_APPOINTED,2022-03-08

@@ -1,7 +1,7 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
 2095/17_tr_01,"Minister of Irrigation and Water Resources and Disaster
-Management",minister,Duminda Dissanayake,person,AS_APPOINTED,2018-11-01
-2095/17_tr_02,Minister of Skills Development & Vocational Training,minister,Dayasiri Jayasekara,person,AS_APPOINTED,2018-11-01
+Management",cabinetMinister,Duminda Dissanayake,person,AS_APPOINTED,2018-11-01
+2095/17_tr_02,Minister of Skills Development & Vocational Training,cabinetMinister,Dayasiri Jayasekara,person,AS_APPOINTED,2018-11-01
 2095/17_tr_03,"State Minister of Youth, Women & Child Affairs",state_minister,Ihala Medagama Piyasena Gamage,person,AS_APPOINTED,2018-11-01
 2095/17_tr_04,State Minister of Defence,state_minister,Lakshman Senewiratna,person,AS_APPOINTED,2018-11-01
 2095/17_tr_05,State Minister of Highways & Road Development,state_minister,M L A M Hizbullah,person,AS_APPOINTED,2018-11-01

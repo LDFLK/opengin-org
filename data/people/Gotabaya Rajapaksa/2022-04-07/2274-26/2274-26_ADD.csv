@@ -1,2 +1,2 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2274-26_tr_01,Minister of Finance,minister,Ali Sabry,citizen,AS_APPOINTED,2022-04-07
+2274-26_tr_01,Minister of Finance,cabinetMinister,Ali Sabry,citizen,AS_APPOINTED,2022-04-07

@@ -1,4 +1,4 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2276-63-2_tr_01,"Minister of Public Administration, Home Affairs, Provincial Councils & Local Government",minister,Dinesh Chandra Rupasingha Gunawardena,citizen,AS_APPOINTED,2022-04-22
-2276-63-2_tr_04,Minister of Plantation Industries,minister,Ramesh Pathirana,citizen,AS_APPOINTED,2022-04-22
-2276-63-2_tr_14,Minister of Samurdhi Development,minister,Asanka Shehan Semasinghe,citizen,AS_APPOINTED,2022-04-22
+2276-63-2_tr_01,"Minister of Public Administration, Home Affairs, Provincial Councils & Local Government",cabinetMinister,Dinesh Chandra Rupasingha Gunawardena,citizen,AS_APPOINTED,2022-04-22
+2276-63-2_tr_04,Minister of Plantation Industries,cabinetMinister,Ramesh Pathirana,citizen,AS_APPOINTED,2022-04-22
+2276-63-2_tr_14,Minister of Samurdhi Development,cabinetMinister,Asanka Shehan Semasinghe,citizen,AS_APPOINTED,2022-04-22

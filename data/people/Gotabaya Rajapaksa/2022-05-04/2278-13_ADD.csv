@@ -1,2 +1,2 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2278-13_tr_02,State Minister of Prison Management and Prisoners' Rehabilitation,minister,Ali Sabry,citizen,AS_APPOINTED,2022-05-04
+2278-13_tr_02,State Minister of Prison Management and Prisoners' Rehabilitation,stateMinister,Ali Sabry,citizen,AS_APPOINTED,2022-05-04

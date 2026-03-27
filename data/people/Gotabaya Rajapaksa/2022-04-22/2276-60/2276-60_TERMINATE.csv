@@ -1,2 +1,2 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2276-60_tr_01,Minister of Education,minister,Dinesh Chandra Rupasingha Gunawardena,citizen,AS_APPOINTED,2022-04-22
+2276-60_tr_01,Minister of Education,cabinetMinister,Dinesh Chandra Rupasingha Gunawardena,citizen,AS_APPOINTED,2022-04-22

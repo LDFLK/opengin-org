@@ -1,3 +1,3 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2360-60_tr_03,Minister of Sports and Youth Affairs,minister,Nalaka Jude Hareen Fernando,citizen,AS_APPOINTED,2023-12-01
-2360-60_tr_04,Minister of Irrigation,minister,Vanniarachchi Pavithra Devi,citizen,AS_APPOINTED,2023-12-01
+2360-60_tr_03,Minister of Sports and Youth Affairs,cabinetMinister,Nalaka Jude Hareen Fernando,citizen,AS_APPOINTED,2023-12-01
+2360-60_tr_04,Minister of Irrigation,cabinetMinister,Vanniarachchi Pavithra Devi,citizen,AS_APPOINTED,2023-12-01

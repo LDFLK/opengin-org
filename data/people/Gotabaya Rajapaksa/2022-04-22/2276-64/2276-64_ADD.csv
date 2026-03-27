@@ -1,5 +1,5 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2276-64_tr_01,State Minister of Defence,minister,Gamini Lakshman Pieris,citizen,AS_APPOINTED,2022-04-22
-2276-64_tr_02,State Minister of Provincial Councils and Local Government,minister,Rohana Dissanayaka,citizen,AS_APPOINTED,2022-04-22
-2276-64_tr_22,State Minister of Estate Housing and Community Infrastructure,minister,A. Aravind Kumar,citizen,AS_APPOINTED,2022-04-22
-2276-64_tr_26,"State Minister of Cooperative Services, Marketing Development and Consumer Protection",minister,Basnayaka Yasarathnalage Gunapala Rathnasekara,citizen,AS_APPOINTED,2022-04-22
+2276-64_tr_01,State Minister of Defence,stateMinister,Gamini Lakshman Pieris,citizen,AS_APPOINTED,2022-04-22
+2276-64_tr_02,State Minister of Provincial Councils and Local Government,stateMinister,Rohana Dissanayaka,citizen,AS_APPOINTED,2022-04-22
+2276-64_tr_22,State Minister of Estate Housing and Community Infrastructure,stateMinister,A. Aravind Kumar,citizen,AS_APPOINTED,2022-04-22
+2276-64_tr_26,"State Minister of Cooperative Services, Marketing Development and Consumer Protection",stateMinister,Basnayaka Yasarathnalage Gunapala Rathnasekara,citizen,AS_APPOINTED,2022-04-22

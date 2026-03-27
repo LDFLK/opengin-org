@@ -1,4 +1,4 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2403-38-02_tr_33,"Minister of Finance, Economic Development, Policy Formulation, Planning and Tourism",minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-02_tr_34,Minister of Energy,minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
-2403-38-02_tr_35,"Minister of Agriculture, Lands, Livestock, Irrigation, Fisheries and Aquatic Resources",minister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-02_tr_33,"Minister of Finance, Economic Development, Policy Formulation, Planning and Tourism",cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-02_tr_34,Minister of Energy,cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25
+2403-38-02_tr_35,"Minister of Agriculture, Lands, Livestock, Irrigation, Fisheries and Aquatic Resources",cabinetMinister,Anura Kumara Dissanayake,citizen,AS_APPOINTED,2024-09-25

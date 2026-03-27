@@ -1,21 +1,21 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2276-63_tr_02,Minister of Fisheries,minister,Douglas Devananda,citizen,AS_APPOINTED,2022-04-22
-2276-63_tr_03,Minister of Education,minister,Ramesh Pathirana,citizen,AS_APPOINTED,2022-04-22
-2276-63_tr_05,Minister of Public Security,minister,Prasanna Ranatunga,citizen,AS_APPOINTED,2022-04-22
-2276-63_tr_06,Minister of Tourism,minister,Prasanna Ranatunga,citizen,AS_APPOINTED,2022-04-22
-2276-63_tr_07,Minister of Transport,minister,Amunugama Dilum Suraj Bandara,citizen,AS_APPOINTED,2022-04-22
-2276-63_tr_08,Minister of Industries,minister,Amunugama Dilum Suraj Bandara,citizen,AS_APPOINTED,2022-04-22
-2276-63_tr_09,Minister of Highways,minister,Kanaka Herath,citizen,AS_APPOINTED,2022-04-22
-2276-63_tr_10,Minister of Labour,minister,Vidura Wickramanayaka,citizen,AS_APPOINTED,2022-04-22
-2276-63_tr_11,Minister of Agriculture,minister,Janaka Wakkumbura,citizen,AS_APPOINTED,2022-04-22
-2276-63_tr_12,Minister of Irrigation,minister,Janaka Wakkumbura,citizen,AS_APPOINTED,2022-04-22
-2276-63_tr_13,Minister of Trade,minister,Asanka Shehan Semasinghe,citizen,AS_APPOINTED,2022-04-22
-2276-63_tr_15,Minister of Water Supply,minister,Agampodi Mohan Priyadarshana De Silva,citizen,AS_APPOINTED,2022-04-22
-2276-63_tr_16,Minister of Wildlife and Forest Resources Conservation,minister,Wimalaweera Dissanayaka,citizen,AS_APPOINTED,2022-04-22
-2276-63_tr_17,Minister of Energy,minister,Kanchana Wijesekera,citizen,AS_APPOINTED,2022-04-22
-2276-63_tr_18,Minister of Power,minister,Kanchana Wijesekera,citizen,AS_APPOINTED,2022-04-22
-2276-63_tr_19,Minister of Youth and Sports,minister,Amith Thenuka Vidanagamage,citizen,AS_APPOINTED,2022-04-22
-2276-63_tr_20,Minister of Mass Media,minister,Nalaka Godahewa,citizen,AS_APPOINTED,2022-04-22
-2276-63_tr_21,Minister of Health,minister,Channa Jayasumana,citizen,AS_APPOINTED,2022-04-22
-2276-63_tr_22,Minister of Environment,minister,Ahamed Zenulabdeen Naseer,citizen,AS_APPOINTED,2022-04-22
-2276-63_tr_23,Minister of Ports and Shipping,minister,Thennakoon Pramitha Bandara,citizen,AS_APPOINTED,2022-04-22
+2276-63_tr_02,Minister of Fisheries,cabinetMinister,Douglas Devananda,citizen,AS_APPOINTED,2022-04-22
+2276-63_tr_03,Minister of Education,cabinetMinister,Ramesh Pathirana,citizen,AS_APPOINTED,2022-04-22
+2276-63_tr_05,Minister of Public Security,cabinetMinister,Prasanna Ranatunga,citizen,AS_APPOINTED,2022-04-22
+2276-63_tr_06,Minister of Tourism,cabinetMinister,Prasanna Ranatunga,citizen,AS_APPOINTED,2022-04-22
+2276-63_tr_07,Minister of Transport,cabinetMinister,Amunugama Dilum Suraj Bandara,citizen,AS_APPOINTED,2022-04-22
+2276-63_tr_08,Minister of Industries,cabinetMinister,Amunugama Dilum Suraj Bandara,citizen,AS_APPOINTED,2022-04-22
+2276-63_tr_09,Minister of Highways,cabinetMinister,Kanaka Herath,citizen,AS_APPOINTED,2022-04-22
+2276-63_tr_10,Minister of Labour,cabinetMinister,Vidura Wickramanayaka,citizen,AS_APPOINTED,2022-04-22
+2276-63_tr_11,Minister of Agriculture,cabinetMinister,Janaka Wakkumbura,citizen,AS_APPOINTED,2022-04-22
+2276-63_tr_12,Minister of Irrigation,cabinetMinister,Janaka Wakkumbura,citizen,AS_APPOINTED,2022-04-22
+2276-63_tr_13,Minister of Trade,cabinetMinister,Asanka Shehan Semasinghe,citizen,AS_APPOINTED,2022-04-22
+2276-63_tr_15,Minister of Water Supply,cabinetMinister,Agampodi Mohan Priyadarshana De Silva,citizen,AS_APPOINTED,2022-04-22
+2276-63_tr_16,Minister of Wildlife and Forest Resources Conservation,cabinetMinister,Wimalaweera Dissanayaka,citizen,AS_APPOINTED,2022-04-22
+2276-63_tr_17,Minister of Energy,cabinetMinister,Kanchana Wijesekera,citizen,AS_APPOINTED,2022-04-22
+2276-63_tr_18,Minister of Power,cabinetMinister,Kanchana Wijesekera,citizen,AS_APPOINTED,2022-04-22
+2276-63_tr_19,Minister of Youth and Sports,cabinetMinister,Amith Thenuka Vidanagamage,citizen,AS_APPOINTED,2022-04-22
+2276-63_tr_20,Minister of Mass Media,cabinetMinister,Nalaka Godahewa,citizen,AS_APPOINTED,2022-04-22
+2276-63_tr_21,Minister of Health,cabinetMinister,Channa Jayasumana,citizen,AS_APPOINTED,2022-04-22
+2276-63_tr_22,Minister of Environment,cabinetMinister,Ahamed Zenulabdeen Naseer,citizen,AS_APPOINTED,2022-04-22
+2276-63_tr_23,Minister of Ports and Shipping,cabinetMinister,Thennakoon Pramitha Bandara,citizen,AS_APPOINTED,2022-04-22

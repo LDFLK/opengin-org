@@ -1,4 +1,4 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
-2279-30_tr_05,Minister of Foreign Affairs,minister,Gamini Lakshman Pieris,citizen,AS_APPOINTED,2022-05-14
-2279-30_tr_06,Minister of Urban Development and Housing,minister,Prasanna Ranatunga,citizen,AS_APPOINTED,2022-05-14
-2279-30_tr_07,Minister of Power,minister,Kanchana Wijesekera,citizen,AS_APPOINTED,2022-05-14
+2279-30_tr_05,Minister of Foreign Affairs,cabinetMinister,Gamini Lakshman Pieris,citizen,AS_APPOINTED,2022-05-14
+2279-30_tr_06,Minister of Urban Development and Housing,cabinetMinister,Prasanna Ranatunga,citizen,AS_APPOINTED,2022-05-14
+2279-30_tr_07,Minister of Power,cabinetMinister,Kanchana Wijesekera,citizen,AS_APPOINTED,2022-05-14
